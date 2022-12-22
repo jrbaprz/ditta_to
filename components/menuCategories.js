@@ -10,7 +10,6 @@ const MenuCategories = () => {
           whileInView={{ opacity: 1 }}
           transition={{
             duration: 0.5,
-            delay: 0.5,
           }}
           viewport={{ once: true }}
         >
@@ -33,7 +32,7 @@ const MenuCategories = () => {
           whileInView={{ opacity: 1 }}
           transition={{
             duration: 0.5,
-            delay: 0.75,
+            delay: 0.25,
           }}
           viewport={{ once: true }}
         >
@@ -56,7 +55,7 @@ const MenuCategories = () => {
           whileInView={{ opacity: 1 }}
           transition={{
             duration: 0.5,
-            delay: 1,
+            delay: 0.5,
           }}
           viewport={{ once: true }}
         >
