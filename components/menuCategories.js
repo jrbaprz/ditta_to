@@ -21,7 +21,7 @@ const MenuCategories = () => {
                   Coffee & Tea
                 </h1>
                 <h1 className=" 10 text-white font-akkuratlight px-4 lg:text-xl">
-                  Duis aute irure dolor in reprehnderit
+                  Duis aute irure dolor in reprehnderi
                 </h1>
               </div>
             </a>
