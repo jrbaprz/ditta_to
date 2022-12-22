@@ -10,7 +10,7 @@ const Drawer = ({ setOpen }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
-          duration: 0.15,
+          duration: 0.25,
         }}
         className="fixed bg-[url(../public/logos/pattern.jpg)] z-40 top-0 overflow-hidden w-screen h-screen p-4"
       >
