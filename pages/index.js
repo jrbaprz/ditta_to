@@ -2,6 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Lounge from "../public/images/overlays/lounge.jpg";
+import portafilter from "../public/images/photos/portafilter.jpg";
+import omelette from "../public/images/photos/omelette.jpg";
+import mug from "../public/images/products/mug.jpg";
+import hario from "../public/images/products/hario.jpg";
 import Bookings from "../components/bookings";
 import Carousel from "../components/carousel";
 import MenuCategories from "../components/menuCategories";
@@ -163,15 +167,68 @@ const index = () => {
 
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{
           duration: 0.5,
-          delay: 1.5,
+          delay: 0.25,
         }}
         viewport={{ once: true }}
       >
         <CoffeeMenu />
       </motion.div>
+
+      <section className="space-y-16 xl:space-y-0">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.25,
+          }}
+          viewport={{ once: true }}
+        >
+          <section className="xl:grid grid-cols-2">
+            <div className="my-20 xl:mb-0">
+              <Image src={portafilter} alt="cappuccino" />
+            </div>
+            <div className="flex flex-col px-16 md:px-60 lg:px-72 lg:my-28 xl:px-44 xl:m-0 justify-center items-center">
+              <Image src={mug} alt="Ditta Mug" />
+              <div className="flex justify-center text-[#392e7a] font-elgocmedium text-2xl">
+                Cappuccino Mug
+              </div>
+              <div className="flex justify-center text-[#606060] font-akkuratlight">
+                $15.00
+              </div>
+            </div>
+          </section>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.25,
+          }}
+          viewport={{ once: true }}
+        >
+          <section className="xl:grid grid-cols-2">
+            <div className="flex flex-col px-16 sm:px-44 lg:px-72 lg:my-28 xl:px-44 xl:m-0 justify-center items-center">
+              <Image src={hario} alt="Hario Kit" />
+              <div className="flex justify-center text-[#392e7a] font-elgocmedium text-2xl">
+                Hario V60 Pourover Kit
+              </div>
+              <div className="flex justify-center text-[#606060] font-akkuratlight">
+                $35.00
+              </div>
+            </div>
+
+            <div className="my-20 lg:mt-52 xl:mt-0">
+              <Image src={omelette} alt="omelette" />
+            </div>
+          </section>
+        </motion.div>
+      </section>
     </>
   );
 };
