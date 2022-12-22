@@ -4,30 +4,30 @@
 
 @font-face {
   font-family: "Akkurat";
-  src: url("../public/font/akkurat/AkkuratStd-Regular.otf");
+  src: url("../assets/font/akkurat/AkkuratStd-Regular.otf");
 }
 
 @font-face {
   font-family: "Akkurat Light";
-  src: url("../public/font/akkurat/AkkuratStd-Light.otf");
+  src: url("../assets/font/akkurat/AkkuratStd-Light.otf");
 }
 
 @font-face {
   font-family: "Akkurat Bold";
-  src: url("../public/font/akkurat/AkkuratStd-Bold.otf");
+  src: url("../assets/font/akkurat/AkkuratStd-Bold.otf");
 }
 
 @font-face {
   font-family: "Elgoc";
-  src: url("../public/font/elgoc/Elgoc-Regular.otf");
+  src: url("../assets/font/elgoc/Elgoc-Regular.otf");
 }
 
 @font-face {
   font-family: "Elgoc Medium";
-  src: url("../public/font/elgoc/Elgoc-Medium.otf");
+  src: url("../assets/font/elgoc/Elgoc-Medium.otf");
 }
 
 @font-face {
   font-family: "Elgoc Thin";
-  src: url("../public/font/elgoc/Elgoc-Thin.otf");
+  src: url("../assets/font/elgoc/Elgoc-Thin.otf");
 }
