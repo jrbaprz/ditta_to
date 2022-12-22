@@ -18,22 +18,24 @@ const Contact = () => {
         <div className="lg:grid grid-cols-2">
           <motion.div
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 1,
+              delay: 0.25,
             }}
+            viewport={{ once: true }}
           >
             <Map />
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 1,
+              delay: 0.25,
             }}
+            viewport={{ once: true }}
           >
             <div className="flex flex-col justify-center text-center md:mt-8 lg:text-left lg:my-10 lg:pl-10 xl:pr-32 xl:text-left">
               <h1 className="font-elgoc text-[#392e7a] mt-8 text-4xl lg:mt-16 lg:text-5xl xl:mt-0">
