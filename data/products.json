@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "title": "Mamma Mia",
+        "region": "Blend",
+        "notes": "Dark Chocolate - Dark Fruits - Black Cherries",
+        "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
+        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-mamma-mia_540x.png?v=1622131311"
+    },
+    {
+        "id": 1,
+        "title": "Finca El Puente",
+        "region": "Honduras",
+        "notes": "Mango - Lime - Pineapple",
+        "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
+        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-honduras-finca-el-puente-geisha-washed_540x.png?v=1622131299"
+    },
+    {
+        "id": 2,
+        "title": "Finca Santa Fè ",
+        "region": "Mexico",
+        "notes": "Spicy - Walnuts - Chocolate",
+        "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
+        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/santafe_540x.png?v=1629975513"
+    },
+    {
+        "id": 3,
+        "title": "Kintamani",
+        "region": "Indonesia",
+        "notes": "Melon - Orange Rind - Sugar Cane",
+        "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
+        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/DAR315Kintamani_540x.png?v=1659954304"
+    }
+]

@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import aWhite from "../public/logos/a-white.jpg";
-import LogoWhite from "../public/logos/white.jpg";
 
 const Drawer = ({ setOpen }) => {
   return (
@@ -16,9 +15,13 @@ const Drawer = ({ setOpen }) => {
         className="fixed bg-[url(../public/logos/pattern.jpg)] z-40 top-0 overflow-hidden w-screen h-screen p-4"
       >
         <div className="grid grid-cols-2 pb-4 border-white border-b-[1px]">
-          <div className="pr-[134px] ml-[5px]">
-            <Image src={aWhite} alt="Logo of Ditta Artigianale A in White" />
-          </div>
+          <a href="/" className="ml-[12px]">
+            <Image
+              src={aWhite}
+              alt="Logo of Ditta Artigianale A in White"
+              width={30}
+            />
+          </a>
           <div className="ml-auto my-auto hover:cursor-pointer">
             <svg
               onClick={() => setOpen(!open)}
@@ -38,11 +41,47 @@ const Drawer = ({ setOpen }) => {
           </div>
         </div>
 
-        <ul className="flex flex-col justify-center items-center mt-16 text-white text-4xl space-y-6">
-          <li>Menu</li>
-          <li>About</li>
-          <li>Reservations</li>
-          <li>Contact</li>
+        <ul className="flex flex-col justify-center items-center mt-16 text-white text-4xl space-y-6 font-elgoc">
+          <div
+            onClick={() => {
+              setOpen(false);
+            }}
+            className="hover:text-[#cfe600] duration-300"
+          >
+            <a href="/">Home</a>
+          </div>
+          <div
+            onClick={() => {
+              setOpen(false);
+            }}
+            className="hover:text-[#cfe600] duration-300"
+          >
+            <a href="/menu">Menu</a>
+          </div>
+          <div
+            onClick={() => {
+              setOpen(false);
+            }}
+            className="hover:text-[#cfe600] duration-300"
+          >
+            <a href="/about">About</a>
+          </div>
+          <div
+            onClick={() => {
+              setOpen(false);
+            }}
+            className="hover:text-[#cfe600] duration-300"
+          >
+            <a href="/reservations">Reservations</a>
+          </div>
+          <div
+            onClick={() => {
+              setOpen(false);
+            }}
+            className="hover:text-[#cfe600] duration-300"
+          >
+            <a href="/contact">Contact</a>
+          </div>
         </ul>
       </motion.div>
     </>
