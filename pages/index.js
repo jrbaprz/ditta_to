@@ -54,7 +54,7 @@ const index = () => {
         }}
         viewport={{ once: true }}
       >
-        <section className="px-10 mt-8 md:px-24 xl:mt-16 xl:mx-20 xl:px-0 2xl:px-24">
+        <section className="px-10 md:px-24 xl:mt-16 xl:mx-20 xl:px-0 2xl:px-24">
           <div className="xl:grid grid-cols-2">
             <div className="xl:flex xl:pl-32 xl:mr-20 xl:items-end">
               <Image src={Lounge} alt="Photo of lounge" />
