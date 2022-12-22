@@ -5,7 +5,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className="fixed top-0 overflow-hidden grid grid-cols-2 w-screen p-4 border-b-white border-[1px] xl:grid-cols-3">
+      <nav className="fixed z-40 top-0 overflow-hidden grid grid-cols-2 w-screen p-4 border-b-white border-[1px] xl:grid-cols-3">
         <div>Ditta Artigianale</div>
         <ul className="hidden md:flex gap-4 justify-center">
           <li>Menu</li>
