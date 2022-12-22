@@ -1,5 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import aWhite from "../public/logos/a-white.jpg";
+import LogoWhite from "../public/logos/white.jpg";
 
 const Drawer = ({ setOpen }) => {
   return (
@@ -7,22 +10,23 @@ const Drawer = ({ setOpen }) => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
         transition={{
           duration: 0.15,
         }}
-        className="z-50 fixed w-screen h-screen bg-gray-400 p-4"
+        className="fixed bg-[url(../public/logos/pattern.jpg)] z-40 top-0 overflow-hidden w-screen h-screen p-4"
       >
-        <div className="flex">
-          <div>Ditta Artigianale</div>
-          <div className="ml-auto hover:cursor-pointer">
+        <div className="grid grid-cols-2 pb-4 border-white border-b-[1px]">
+          <div className="pr-[134px] ml-[5px]">
+            <Image src={aWhite} alt="Logo of Ditta Artigianale A in White" />
+          </div>
+          <div className="ml-auto my-auto hover:cursor-pointer">
             <svg
               onClick={() => setOpen(!open)}
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="currentColor"
+              stroke="white"
               class="w-6 h-6"
             >
               <path
@@ -33,7 +37,8 @@ const Drawer = ({ setOpen }) => {
             </svg>
           </div>
         </div>
-        <ul className="flex flex-col justify-center items-center mt-10">
+
+        <ul className="flex flex-col justify-center items-center mt-16 text-white text-4xl space-y-6">
           <li>Menu</li>
           <li>About</li>
           <li>Reservations</li>
