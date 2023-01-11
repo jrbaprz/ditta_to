@@ -19,14 +19,17 @@ const Home = () => {
   return (
     <>
       <section className="overflow-hidden flex items-center justify-center h-screen">
-        <video muted autoPlay loop playsinline ref={vidRef}>
-          <source
-            className="relative object-cover z-0 w-full h-full flex justify-center items-center"
-            src="/videos/Ditta.mp4"
-            alt="Video of Ditta"
-            type="video/mp4"
-          />
-        </video>
+        <video
+          className="relative object-cover z-0 w-full h-full flex justify-center items-center"
+          src="/videos/Ditta.mp4"
+          alt="Video of Ditta"
+          type="video/mp4"
+          muted
+          autoPlay
+          loop
+          playsinline
+          ref={vidRef}
+        />
 
         <div className="absolute z-20 container mx-auto flex flex-col items-center text-center">
           <h1 className="text-white flex font-elgoc items-center text-center justify-center text-5xl px-4 mb-4 md:text-8xl lg:px-20 xl:px-40 2xl:text-[11rem]">
@@ -68,10 +71,11 @@ const Home = () => {
               className="md:p-16"
               src="/videos/stopmotion.mp4"
               type="video/mp4"
-              ref={vidRef}
               muted
               autoPlay
               loop
+              playsinline
+              ref={vidRef}
             />
 
             <div className="flex flex-col justify-center text-center xl:pr-32 xl:text-left">
