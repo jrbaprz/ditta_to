@@ -78,10 +78,11 @@ const Home = () => {
               className="md:p-16"
               src="/videos/stopmotion.mp4"
               type="video/mp4"
-              muted
-              autoPlay
-              loop
-              playsinline
+              defaultMuted
+              muted={true}
+              autoPlay={true}
+              loop={true}
+              playsInline={true}
               ref={vidRef}
             />
 
