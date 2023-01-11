@@ -21,9 +21,9 @@ const Home = () => {
       <section className="overflow-hidden flex items-center justify-center h-screen">
         <video
           className="relative object-cover z-0 w-full h-full flex justify-center items-center"
-          src="/videos/Ditta.mp4"
+          src="/videos/Ditta.webm"
           alt="Video of Ditta"
-          type="video/mp4"
+          type="video/webm"
           defaultMuted
           muted={true}
           autoPlay={true}
@@ -70,8 +70,8 @@ const Home = () => {
           <div className="xl:grid grid-cols-2">
             <video
               className="md:p-16"
-              src="/videos/stopmotion.mp4"
-              type="video/mp4"
+              src="/videos/stopmotion.webm"
+              type="video/webm"
               defaultMuted
               muted={true}
               autoPlay={true}
