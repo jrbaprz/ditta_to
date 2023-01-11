@@ -15,16 +15,16 @@ const index = () => {
   return (
     <>
       <section className="overflow-hidden flex items-center justify-center h-screen">
-        <div className="h-screen">
-          <Image
-            src={Lounge}
-            alt="Photo of Ditta Lounge"
-            className="z-10 responsive object-cover"
-            fill
-            priority
-          />
-        </div>
-        <div className="z-20 container mx-auto flex flex-col items-center text-center">
+        <video
+          className="relative object-cover z-0 w-full h-full flex justify-center items-center"
+          src="/videos/Ditta.mp4"
+          type="video/mp4"
+          muted
+          autoPlay
+          loop
+        />
+
+        <div className="absolute z-20 container mx-auto flex flex-col items-center text-center">
           <h1 className="text-white flex font-elgoc items-center text-center justify-center text-5xl px-4 mb-4 md:text-8xl lg:px-20 xl:px-40 2xl:text-[11rem]">
             Ditta Artigianale Toronto
           </h1>
@@ -60,9 +60,15 @@ const index = () => {
       >
         <section className="px-10 mt-8 md:px-24 xl:mt-16 xl:mx-20 xl:px-0 2xl:px-24">
           <div className="xl:grid grid-cols-2">
-            <div className="xl:flex xl:pl-32 xl:mr-20 xl:items-end">
-              <Image src={Lounge} alt="Photo of lounge" />
-            </div>
+            <video
+              className="xl:p-16"
+              src="/videos/stopmotion.mp4"
+              type="video/mp4"
+              muted
+              autoPlay
+              loop
+            />
+
             <div className="flex flex-col justify-center text-center xl:pr-32 xl:text-left">
               <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 lg:text-6xl xl:mt-0">
                 Filler Title
@@ -124,8 +130,8 @@ const index = () => {
               Our Coffees
             </h1>
             <h2 className="text-center font-akkuratlight text-[#606060] text-xl mt-5 lg:w-[400px] lg:mx-auto">
-              Praesent condimentum rutrum nibh, nec ullamcorper odio laoreet
-              blandit.
+              Try out some of our premium coffees roasted by the experts in
+              Florence.
             </h2>
           </div>
         </section>
@@ -160,8 +166,7 @@ const index = () => {
           Our Menu
         </div>
         <div className="flex text-[#606060] justify-center font-elgoc px-20 text-center text-xl mt-4 mb-6 md:mx-auto md:w-[550px] lg:text-2xl lg:mx-auto lg:w-[700px]">
-          Try out some of our premium coffees roasted by the experts in
-          Florence.
+          Italian
         </div>
       </motion.div>
 

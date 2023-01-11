@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex font-akkuratlight text-white py-8 text-sm justify-center border-t-[#ffffff8f] border-t-[1px]">
-          &copy; 2022. Ditta Artigianale Toronto. All rights reserved.
+          &copy; 2023. Ditta Artigianale Toronto. All rights reserved.
         </div>
       </footer>
     </>

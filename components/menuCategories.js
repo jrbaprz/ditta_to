@@ -1,5 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import tulip from "../public/images/overlays/tulip.jpg";
+import almond from "../public/images/overlays/almond.jpg";
+import cocktail from "../public/images/overlays/cocktail.jpg";
 
 const MenuCategories = () => {
   return (
@@ -13,18 +17,23 @@ const MenuCategories = () => {
           }}
           viewport={{ once: true }}
         >
-          <section className="relative flex items-center justify-center bg-[url('../public/images/overlays/tulip.jpg')] bg-cover bg-center lg:h-80 xl:h-96">
+          <div className="relative flex justify-center items-center">
             <a href="/menu#coffee">
-              <div className="container mx-auto flex flex-col items-center py-20 text-center my-6 md:py-40">
-                <h1 className=" 10 text-white font-elgoc text-5xl lg:flex justify-center">
-                  Coffee & Tea
-                </h1>
-                <h1 className=" 10 text-white font-akkuratlight px-4 lg:text-xl">
-                  Duis aute irure dolor in reprehnderi
-                </h1>
-              </div>
+              <Image
+                src={tulip}
+                alt="Photo of Ditta Cappuccino"
+                className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
+              />
             </a>
-          </section>
+            <div className="absolute text-white">
+              <h1 className="font-elgoc text-5xl flex justify-center">
+                Coffee & Tea
+              </h1>
+              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
+                Duis aute irure dolor in reprehnderit
+              </h1>
+            </div>
+          </div>
         </motion.div>
 
         <motion.div
@@ -36,18 +45,21 @@ const MenuCategories = () => {
           }}
           viewport={{ once: true }}
         >
-          <section className="relative flex items-center justify-center bg-[url('../public/images/overlays/almond.jpg')] bg-cover bg-center lg:h-80 xl:h-96">
+          <div className="relative flex justify-center items-center">
             <a href="/menu#food">
-              <div className="container mx-auto flex flex-col items-center py-20 text-center my-6 md:py-40">
-                <h1 className=" 10 text-white font-elgoc text-5xl lg:flex justify-center">
-                  Food
-                </h1>
-                <h1 className=" 10 text-white font-akkuratlight px-4 lg:text-xl">
-                  Duis aute irure dolor in reprehnderit
-                </h1>
-              </div>
+              <Image
+                src={almond}
+                alt="Photo of almond croissant"
+                className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
+              />
             </a>
-          </section>
+            <div className="absolute text-white">
+              <h1 className="font-elgoc text-5xl flex justify-center">Food</h1>
+              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
+                Duis aute irure dolor in reprehnderit
+              </h1>
+            </div>
+          </div>
         </motion.div>
 
         <motion.div
@@ -59,18 +71,23 @@ const MenuCategories = () => {
           }}
           viewport={{ once: true }}
         >
-          <section className="relative flex items-center justify-center bg-[url('../public/images/overlays/cocktail.jpg')] bg-cover bg-center lg:h-80 xl:h-96">
+          <div className="relative flex justify-center items-center">
             <a href="/menu#drinks">
-              <div className="container mx-auto flex flex-col items-center py-20 text-center my-6 md:py-40">
-                <h1 className=" 10 text-white font-elgoc text-5xl lg:flex justify-center">
-                  Drinks
-                </h1>
-                <h1 className=" 10 text-white font-akkuratlight px-4 lg:text-xl">
-                  Duis aute irure dolor in reprehnderit
-                </h1>
-              </div>
+              <Image
+                src={cocktail}
+                alt="Photo of Ditta Cocktail"
+                className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
+              />
             </a>
-          </section>
+            <div className="absolute text-white">
+              <h1 className="font-elgoc text-5xl flex justify-center">
+                Drinks
+              </h1>
+              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
+                Duis aute irure dolor in reprehnderit
+              </h1>
+            </div>
+          </div>
         </motion.div>
       </section>
     </>

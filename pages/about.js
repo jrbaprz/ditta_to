@@ -34,16 +34,14 @@ const About = () => {
             </div>
             <div className="flex flex-col justify-center text-center xl:pr-32 xl:text-left">
               <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 lg:text-5xl xl:mt-0">
-                Something About Ditta Italy
+                Ditta Artigianale Italy
               </h1>
-              <h2 className="font-elgoc text-[#606060] text-2xl my-4 md:text-2xl">
-                Filler Header. Donec rutrum in justo eget. In porta nisi
-                fringilla arcu, ac vulputate dui tempor et.
-              </h2>
               <h3 className="font-akkuratlight text-[#606060] leading-loose my-4 2xl:text-lg">
                 Ditta Artigianale is an Italian roasting company with an
                 international vision. We like to talk about coffee, we like to
-                travel to the most distant places in the world
+                travel to the most distant places in the world in order to find
+                exclusive coffees, to then carefully roast them and enhance all
+                of their natural aromas.
               </h3>
               <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
                 <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
