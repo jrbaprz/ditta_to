@@ -24,11 +24,12 @@ const Home = () => {
           src="/videos/Ditta.mp4"
           alt="Video of Ditta"
           type="video/mp4"
-          ref={vidRef}
+          defaultMuted
           muted={true}
           autoPlay={true}
           loop={true}
-          playsinline={true}
+          playsInline={true}
+          ref={vidRef}
         />
 
         <div className="absolute z-20 container mx-auto flex flex-col items-center text-center">
