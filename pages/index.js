@@ -130,8 +130,9 @@ const index = () => {
               Our Coffees
             </h1>
             <h2 className="text-center font-akkuratlight text-[#606060] text-xl mt-5 lg:w-[400px] lg:mx-auto">
-              Try out some of our premium coffees roasted by the experts in
-              Florence.
+              We travel the world in search of themost exclusive micro-lots,
+              establishing direct relationships with producers and engaging in
+              special roasting techniques.
             </h2>
           </div>
         </section>
@@ -166,7 +167,8 @@ const index = () => {
           Our Menu
         </div>
         <div className="flex text-[#606060] justify-center font-elgoc px-20 text-center text-xl mt-4 mb-6 md:mx-auto md:w-[550px] lg:text-2xl lg:mx-auto lg:w-[700px]">
-          Italian
+          Try out some of our premium coffees roasted by the experts in
+          Florence.
         </div>
       </motion.div>
 
