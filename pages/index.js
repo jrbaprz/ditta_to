@@ -61,7 +61,7 @@ const index = () => {
         <section className="px-10 mt-8 md:px-24 xl:mt-16 xl:mx-20 xl:px-0 2xl:px-24">
           <div className="xl:grid grid-cols-2">
             <video
-              className="xl:p-16"
+              className="md:p-16"
               src="/videos/stopmotion.mp4"
               type="video/mp4"
               muted
