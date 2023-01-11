@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Lounge from "../public/images/overlays/lounge.jpg";
 import portafilter from "../public/images/photos/portafilter.jpg";
 import omelette from "../public/images/photos/omelette.jpg";
 import mug from "../public/images/products/mug.jpg";
@@ -18,6 +17,7 @@ const index = () => {
         <video
           className="relative object-cover z-0 w-full h-full flex justify-center items-center"
           src="/videos/Ditta.mp4"
+          alt="Video of Ditta"
           type="video/mp4"
           muted
           autoPlay
