@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import portafilter from "../public/images/photos/portafilter.jpg";
@@ -10,13 +10,19 @@ import Carousel from "../components/carousel";
 import MenuCategories from "../components/menuCategories";
 import CoffeeMenu from "../components/coffeeMenu";
 
-const index = () => {
+const Home = () => {
+  const vidRef = useRef();
+  useEffect(() => {
+    vidRef.current.play();
+  }, []);
+
   return (
     <>
       <section className="overflow-hidden flex items-center justify-center h-screen">
         <video
           className="relative object-cover z-0 w-full h-full flex justify-center items-center"
           src="/videos/Ditta.mp4"
+          ref={vidRef}
           alt="Video of Ditta"
           type="video/mp4"
           muted
@@ -64,6 +70,7 @@ const index = () => {
               className="md:p-16"
               src="/videos/stopmotion.mp4"
               type="video/mp4"
+              ref={vidRef}
               muted
               autoPlay
               loop
@@ -240,4 +247,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;
