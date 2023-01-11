@@ -19,6 +19,9 @@ const Home = () => {
   return (
     <>
       <section className="overflow-hidden flex items-center justify-center h-screen">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `
         <video
           className="relative object-cover z-0 w-full h-full flex justify-center items-center"
           src="/videos/Ditta.mp4"
@@ -30,6 +33,10 @@ const Home = () => {
           playsinline
           ref={vidRef}
         />
+        />,
+      `,
+          }}
+        ></div>
 
         <div className="absolute z-20 container mx-auto flex flex-col items-center text-center">
           <h1 className="text-white flex font-elgoc items-center text-center justify-center text-5xl px-4 mb-4 md:text-8xl lg:px-20 xl:px-40 2xl:text-[11rem]">
