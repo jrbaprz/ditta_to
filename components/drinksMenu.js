@@ -21,7 +21,7 @@ const DrinksMenu = () => {
                   Limone
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$5</span>
+                <span className="flex-shrink mx-3 font-akkurat">$5.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -36,7 +36,7 @@ const DrinksMenu = () => {
                   Tonica
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$5</span>
+                <span className="flex-shrink mx-3 font-akkurat">$5.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -51,7 +51,7 @@ const DrinksMenu = () => {
                   Pompelmo
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$5</span>
+                <span className="flex-shrink mx-3 font-akkurat">$5.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -77,7 +77,7 @@ const DrinksMenu = () => {
                   Orange Juice
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.5</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">Cold-Pressed</span>
@@ -90,7 +90,7 @@ const DrinksMenu = () => {
                   Grapefruit Juice
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.5</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">Cold-Pressed</span>

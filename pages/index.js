@@ -12,6 +12,7 @@ import CoffeeMenu from "../components/coffeeMenu";
 
 const Home = () => {
   const vidRef = useRef();
+
   useEffect(() => {
     vidRef.current.play();
   }, []);
@@ -57,7 +58,7 @@ const Home = () => {
         </div>
       </section>
 
-      <motion.div
+      <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
@@ -65,51 +66,45 @@ const Home = () => {
           delay: 0.25,
         }}
         viewport={{ once: true }}
+        className="p-10"
       >
-        <section className="px-10 mt-8 md:px-24 xl:mt-16 xl:mx-20 xl:px-0 2xl:px-24">
-          <div className="xl:grid grid-cols-2">
-            <video
-              className="md:p-16"
-              src="/videos/stopmotion.mp4"
-              type="video/mp4"
-              defaultMuted
-              muted={true}
-              autoPlay={true}
-              loop={true}
-              playsInline={true}
-              ref={vidRef}
-            />
+        <div className="xl:grid grid-cols-2">
+          <video
+            className="md:px-16"
+            src="/videos/stopmotion.mp4"
+            type="video/mp4"
+            defaultMuted
+            muted={true}
+            autoPlay={true}
+            loop={true}
+            playsInline={true}
+            ref={vidRef}
+          />
 
-            <div className="flex flex-col justify-center text-center xl:pr-32 xl:text-left">
-              <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 lg:text-6xl xl:mt-0">
-                Filler Title
-              </h1>
-              <h2 className="font-elgoc text-[#606060] text-2xl my-4 md:text-2xl">
-                Filler Header. Donec rutrum in justo eget. In porta nisi
-                fringilla arcu, ac vulputate dui tempor et.
-              </h2>
-              <h3 className="font-akkuratlight text-[#606060] leading-loose my-4 2xl:text-lg">
-                Quis lectus nulla at volutpat diam ut. Mollis aliquam ut
-                porttitor leo a diam, suspendisse, potenti nullam ac tortor
-                vitae purus faucibus ornare. Volutpat maecenas volutpat. Iaculis
-                at erat pellentesque adipiscing. Praesent tristique magna sit
-                amet purus gravida quis blandit turpis egestas pretium.
-              </h3>
-              <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
-                <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
-                  <a href="/menu">
-                    <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
-                      See our Menu
-                    </span>
-                  </a>
-                </div>
+          <div className="flex flex-col justify-center text-center xl:pr-32 xl:text-left">
+            <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 lg:text-6xl xl:mt-0">
+              Welcome to Toronto
+            </h1>
+            <h2 className="flex justify-center font-akkuratlight text-[#606060] leading-loose my-4 mx-auto md:text-lg">
+              Our goal at Ditta Artiginale Toronto is to bring a very
+              sophisticated yet effortless ambience to the heart of Toronto.
+              From our thoughtfully designed and beautiful space, to the
+              impeccable Italian coffee. A gift from Florence, here to enjoy.
+            </h2>
+            <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
+              <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
+                <a href="/reservations">
+                  <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
+                    Come Visit Us
+                  </span>
+                </a>
               </div>
             </div>
           </div>
-        </section>
-      </motion.div>
+        </div>
+      </motion.section>
 
-      <motion.div
+      <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{
@@ -117,16 +112,17 @@ const Home = () => {
           delay: 0.25,
         }}
         viewport={{ once: true }}
+        className="p-10"
       >
-        <h1 className="font-elgoc text-[#392e7a] text-5xl mt-20 text-center md:mt-32 xl:mt-36 xl:mb-8">
+        <h1 className="font-elgoc text-[#392e7a] text-5xl text-center">
           Dine with Us
         </h1>
-        <div className="p-10 lg:px-44 xl:px-72 2xl:px-96">
+        <div className="mt-5 flex justify-center">
           <Bookings />
         </div>
-      </motion.div>
+      </motion.section>
 
-      <motion.div
+      <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{
@@ -134,38 +130,25 @@ const Home = () => {
           delay: 0.25,
         }}
         viewport={{ once: true }}
+        className="p-10"
       >
-        <section className="px-10 mt-8 md:mt-16 xl:mt-16">
-          <div className="flex flex-col justify-center">
-            <h1 className="text-center font-elgoc text-[#392e7a] text-5xl mt-5">
-              Our Coffees
-            </h1>
-            <h2 className="flex text-[#606060] justify-center font-elgoc px-20 text-center text-xl mt-4 mb-6 md:mx-auto md:w-[800px] lg:text-2xl lg:mx-auto lg:w-[700px]">
-              We travel the world in search of themost exclusive micro-lots,
-              establishing direct relationships with producers and engaging in
-              special roasting techniques.
-            </h2>
-          </div>
+        <section className="flex flex-col justify-center">
+          <h1 className="text-center font-elgoc text-[#392e7a] text-5xl">
+            The Coffee Selection
+          </h1>
+          <h2 className="font-akkuratlight text-[#606060] leading-loose my-4 mx-auto text-center md:w-[40rem] md:text-lg">
+            Our experts travel the world in search of the most exclusive
+            micro-lots, with offerings being rotated each season.
+          </h2>
         </section>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{
-          duration: 0.5,
-          delay: 0.25,
-        }}
-        viewport={{ once: true }}
-      >
         <Carousel />
-      </motion.div>
+      </motion.section>
 
       <MenuCategories />
 
       <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20 xl:mt-20" />
 
-      <motion.div
+      <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{
@@ -173,15 +156,17 @@ const Home = () => {
           delay: 0.5,
         }}
         viewport={{ once: true }}
+        className="p-10 pb-0 flex flex-col justify-center"
       >
-        <div className="flex text-[#392e7a] justify-center font-elgoc text-5xl mt-10 md:mt-24 lg:mt-10">
-          Our Menu
-        </div>
-        <div className="flex text-[#606060] justify-center font-elgoc px-20 text-center text-xl mt-4 mb-6 md:mx-auto md:w-[550px] lg:text-2xl lg:mx-auto lg:w-[700px]">
-          Try out some of our premium coffees roasted by the experts in
-          Florence.
-        </div>
-      </motion.div>
+        <h1 className="text-center font-elgoc text-[#392e7a] text-5xl mt-5">
+          Our Drink Menu
+        </h1>
+        <h2 className="font-akkuratlight text-[#606060] leading-loose my-4 mx-auto text-center md:w-[40rem] md:text-lg">
+          Between our traditional offerings to our specialty drinks, come see
+          how Ditta bridges the gap between Specialty Coffee and classic Italian
+          espresso.
+        </h2>
+      </motion.section>
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -192,10 +177,12 @@ const Home = () => {
         }}
         viewport={{ once: true }}
       >
-        <CoffeeMenu />
+        <div className="pb-10">
+          <CoffeeMenu />
+        </div>
       </motion.div>
 
-      <section className="space-y-16 xl:space-y-0">
+      {/* <section className="space-y-16 xl:space-y-0">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -246,7 +233,7 @@ const Home = () => {
             </div>
           </section>
         </motion.div>
-      </section>
+      </section> */}
     </>
   );
 };

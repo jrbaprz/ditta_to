@@ -24,7 +24,7 @@ const FoodMenu = () => {
                   Butter Croissant
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$3.7</span>
+                <span className="flex-shrink mx-3 font-akkurat">$3.70</span>
               </div>
             </div>
 
@@ -34,7 +34,7 @@ const FoodMenu = () => {
                   Almond Croissant
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.3</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.30</span>
               </div>
             </div>
 
@@ -44,7 +44,7 @@ const FoodMenu = () => {
                   Chocolate Croissant
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.3</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.30</span>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ const FoodMenu = () => {
                   Raspberry Croissant
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.3</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.30</span>
               </div>
             </div>
 
@@ -64,7 +64,7 @@ const FoodMenu = () => {
                   Spinach & Feta Danish
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.3</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.30</span>
               </div>
             </div>
 
@@ -74,7 +74,7 @@ const FoodMenu = () => {
                   Fruit Danish
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.5</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">Seasonal Fruits</span>
@@ -87,7 +87,7 @@ const FoodMenu = () => {
                   Apple Danish
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.5</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.50</span>
               </div>
             </div>
 
@@ -97,7 +97,7 @@ const FoodMenu = () => {
                   Kouign-Amann
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.3</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.30</span>
               </div>
             </div>
 
@@ -107,7 +107,7 @@ const FoodMenu = () => {
                   Zucchini Loaf
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$3.6</span>
+                <span className="flex-shrink mx-3 font-akkurat">$3.55</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">Gluten Free</span>
@@ -120,7 +120,7 @@ const FoodMenu = () => {
                   Chocolate Oatmeal Brownie
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$3.6</span>
+                <span className="flex-shrink mx-3 font-akkurat">$3.55</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">Vegan</span>
@@ -142,7 +142,7 @@ const FoodMenu = () => {
                   Eggs Florentine
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18.5</span>
+                <span className="flex-shrink mx-3 font-akkurat">$16.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -157,7 +157,7 @@ const FoodMenu = () => {
                   Egg Sandwich
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$16</span>
+                <span className="flex-shrink mx-3 font-akkurat">$9.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -173,7 +173,7 @@ const FoodMenu = () => {
                   Ricotta Pancakes
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$15</span>
+                <span className="flex-shrink mx-3 font-akkurat">$15.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -189,11 +189,42 @@ const FoodMenu = () => {
                   Omelette
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18</span>
+                <span className="flex-shrink mx-3 font-akkurat">$18.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
                   Eggs - Mushrooms - Butter
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  TBLT
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$18.00</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Heirloom Tomato - Dulse Seaweed - Vegan Mayo - Toasted Panko -
+                  Herb Oil
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Parfait
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$5.00</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Yogurt - Berries - Mint - Sweetened Oats - Maple Syrup
                 </span>
               </div>
             </div>
@@ -213,7 +244,7 @@ const FoodMenu = () => {
                   Avocado Toast
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$16</span>
+                <span className="flex-shrink mx-3 font-akkurat">$12.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -229,7 +260,7 @@ const FoodMenu = () => {
                   Salmon Avocado Toast
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$20</span>
+                <span className="flex-shrink mx-3 font-akkurat">$20.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -245,7 +276,7 @@ const FoodMenu = () => {
                   Prosciutto Toast
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$21</span>
+                <span className="flex-shrink mx-3 font-akkurat">$21.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -261,7 +292,7 @@ const FoodMenu = () => {
                   Ricotta Toast
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18</span>
+                <span className="flex-shrink mx-3 font-akkurat">$18.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -283,7 +314,7 @@ const FoodMenu = () => {
                   Kale Salad
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$12</span>
+                <span className="flex-shrink mx-3 font-akkurat">$12.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -299,7 +330,7 @@ const FoodMenu = () => {
                   Panzanella
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$12</span>
+                <span className="flex-shrink mx-3 font-akkurat">$12.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -315,7 +346,7 @@ const FoodMenu = () => {
                   House Salad
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$12</span>
+                <span className="flex-shrink mx-3 font-akkurat">$12.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -340,7 +371,7 @@ const FoodMenu = () => {
                   Muffaletta
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18</span>
+                <span className="flex-shrink mx-3 font-akkurat">$16.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -356,7 +387,7 @@ const FoodMenu = () => {
                   Vegetable
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$15</span>
+                <span className="flex-shrink mx-3 font-akkurat">$14.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -372,7 +403,7 @@ const FoodMenu = () => {
                   Caprese
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$16</span>
+                <span className="flex-shrink mx-3 font-akkurat">$15.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -387,7 +418,7 @@ const FoodMenu = () => {
                   Oven Roasted Turkey
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18</span>
+                <span className="flex-shrink mx-3 font-akkurat">$18.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -411,7 +442,7 @@ const FoodMenu = () => {
                   Hanger Steak
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$10</span>
+                <span className="flex-shrink mx-3 font-akkurat">$10.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">4oz</span>
@@ -424,7 +455,7 @@ const FoodMenu = () => {
                   Chicken Breast
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$8</span>
+                <span className="flex-shrink mx-3 font-akkurat">$8.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">6oz</span>
@@ -437,7 +468,7 @@ const FoodMenu = () => {
                   Salmon
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$8</span>
+                <span className="flex-shrink mx-3 font-akkurat">$8.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">6oz</span>
@@ -450,7 +481,7 @@ const FoodMenu = () => {
                   Turkey
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$8</span>
+                <span className="flex-shrink mx-3 font-akkurat">$8.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">6oz</span>
@@ -463,7 +494,7 @@ const FoodMenu = () => {
                   Egg
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$3</span>
+                <span className="flex-shrink mx-3 font-akkurat">$3.00</span>
               </div>
             </div>
           </div>

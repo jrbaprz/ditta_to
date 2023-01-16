@@ -46,9 +46,6 @@ const Menu = () => {
               <h1 className="font-elgoc text-5xl flex justify-center">
                 Coffee & Tea
               </h1>
-              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
-                Duis aute irure dolor in reprehnderit
-              </h1>
             </div>
           </div>
         </motion.div>
@@ -72,9 +69,6 @@ const Menu = () => {
             </AnchorLink>
             <div className="absolute text-white">
               <h1 className="font-elgoc text-5xl flex justify-center">Food</h1>
-              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
-                Duis aute irure dolor in reprehnderit
-              </h1>
             </div>
           </div>
         </motion.div>
@@ -100,9 +94,6 @@ const Menu = () => {
               <h1 className="font-elgoc text-5xl flex justify-center">
                 Drinks
               </h1>
-              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
-                Duis aute irure dolor in reprehnderit
-              </h1>
             </div>
           </div>
         </motion.div>
@@ -112,7 +103,7 @@ const Menu = () => {
       <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
 
       <section>
-        <motion.div
+        <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{
@@ -120,16 +111,16 @@ const Menu = () => {
             delay: 0.25,
           }}
           viewport={{ once: true }}
+          className="flex flex-col justify-center px-8 mt-8 md:mt-16 xl:mt-16"
         >
-          <div className="flex text-[#392e7a] justify-center font-elgoc text-5xl mt-12 md:text-5xl">
+          <h1 className="text-center font-elgoc text-[#392e7a] text-5xl mt-5">
             Coffee & Tea
-          </div>
-
-          <div className="flex text-[#606060] justify-center font-elgoc px-20 text-center text-xl mt-4 mb-6 md:text-2xl md:w-[550px] md:mx-auto">
+          </h1>
+          <h2 className="font-akkuratlight text-[#606060] leading-loose my-4 mx-auto text-center md:w-[40rem] lg:text-lg">
             Try out some of our premium coffees roasted by the experts in
             Florence.
-          </div>
-        </motion.div>
+          </h2>
+        </motion.section>
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -160,7 +151,7 @@ const Menu = () => {
         <div id="food" />
         <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
 
-        <motion.div
+        <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{
@@ -168,15 +159,16 @@ const Menu = () => {
             delay: 0.25,
           }}
           viewport={{ once: true }}
+          className="flex flex-col justify-center px-8 mt-8 md:mt-16 xl:mt-16"
         >
-          <div className="flex text-[#392e7a] justify-center font-elgoc text-5xl mt-12 md:text-5xl">
+          <h1 className="text-center font-elgoc text-[#392e7a] text-5xl mt-5">
             Food
-          </div>
-          <div className="flex text-[#606060] justify-center font-elgoc px-20 text-center text-xl mt-4 mb-6 md:text-2xl md:w-[550px] md:mx-auto">
-            Try out some of our premium coffees roasted by the experts in
-            Florence.
-          </div>
-        </motion.div>
+          </h1>
+          <h2 className="font-akkuratlight text-[#606060] leading-loose my-4 mx-auto text-center md:w-[40rem] lg:text-lg">
+            Delicious offerings inspired by classic Italian cuisine. Authentic
+            French baked goods delivered fresh every morning from Goûter.
+          </h2>
+        </motion.section>
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -207,7 +199,7 @@ const Menu = () => {
         <div id="drinks" />
         <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
 
-        <motion.div
+        <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{
@@ -215,15 +207,16 @@ const Menu = () => {
             delay: 0.25,
           }}
           viewport={{ once: true }}
+          className="flex flex-col justify-center px-8 mt-8 md:mt-16 xl:mt-16"
         >
-          <div className="flex text-[#392e7a] justify-center font-elgoc text-5xl mt-12 md:text-5xl">
+          <h1 className="text-center font-elgoc text-[#392e7a] text-5xl mt-5">
             Drinks
-          </div>
-          <div className="flex text-[#606060] justify-center font-elgoc px-20 text-center text-xl mt-4 mb-6 md:text-2xl md:w-[550px] md:mx-auto">
-            Try out some of our premium coffees roasted by the experts in
-            Florence.
-          </div>
-        </motion.div>
+          </h1>
+          <h2 className="font-akkuratlight text-[#606060] leading-loose my-4 mx-auto text-center md:w-[40rem] lg:text-lg">
+            Refreshing hand-crafted beverages prepared with ingredients made
+            in-house.
+          </h2>
+        </motion.section>
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -233,6 +226,7 @@ const Menu = () => {
             delay: 0.25,
           }}
           viewport={{ once: true }}
+          className="pb-8"
         >
           <DrinksMenu />
         </motion.div>

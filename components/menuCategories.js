@@ -29,9 +29,6 @@ const MenuCategories = () => {
               <h1 className="font-elgoc text-5xl flex justify-center">
                 Coffee & Tea
               </h1>
-              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
-                Duis aute irure dolor in reprehnderit
-              </h1>
             </div>
           </div>
         </motion.div>
@@ -55,9 +52,6 @@ const MenuCategories = () => {
             </a>
             <div className="absolute text-white">
               <h1 className="font-elgoc text-5xl flex justify-center">Food</h1>
-              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
-                Duis aute irure dolor in reprehnderit
-              </h1>
             </div>
           </div>
         </motion.div>
@@ -82,9 +76,6 @@ const MenuCategories = () => {
             <div className="absolute text-white">
               <h1 className="font-elgoc text-5xl flex justify-center">
                 Drinks
-              </h1>
-              <h1 className="font-akkuratlight flex justify-center lg:text-xl lg:text-center">
-                Duis aute irure dolor in reprehnderit
               </h1>
             </div>
           </div>

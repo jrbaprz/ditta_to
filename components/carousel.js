@@ -9,7 +9,7 @@ import Content from "../data/products";
 export default function Carousel() {
   return (
     <>
-      <div className="my-20 md:mb-32 overflow-hidden">
+      <div className="pt-8 overflow-hidden">
         <Swiper
           navigation={true}
           style={{

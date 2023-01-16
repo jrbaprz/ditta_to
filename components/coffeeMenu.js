@@ -20,7 +20,7 @@ const CoffeeMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">
-                  $2.6 / $3.5
+                  $2.66 / $3.54
                 </span>
               </div>
               <span className="flex-shrink mx-3">Solo / Doppio</span>
@@ -32,7 +32,9 @@ const CoffeeMenu = () => {
                   Macchiato
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$3 / $4</span>
+                <span className="flex-shrink mx-3 font-akkurat">
+                  $3.10 / $3.98
+                </span>
               </div>
               <span className="flex-shrink mx-3">Solo / Doppio</span>
             </div>
@@ -43,7 +45,9 @@ const CoffeeMenu = () => {
                   Cappuccino
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4 / $4.6</span>
+                <span className="flex-shrink mx-3 font-akkurat">
+                  $3.98 / $4.60
+                </span>
               </div>
               <span className="flex-shrink mx-3">Solo / Doppio</span>
             </div>
@@ -65,7 +69,7 @@ const CoffeeMenu = () => {
                   Flat White
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.6</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.60</span>
               </div>
               <span className="flex-shrink mx-3">8oz</span>
             </div>
@@ -77,10 +81,21 @@ const CoffeeMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">
-                  $4.9 / $6.2
+                  $4.87 / $6.20
                 </span>
               </div>
               <span className="flex-shrink mx-3">12oz / 16oz</span>
+            </div>
+
+            <div className="py-5 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Long Black
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$3.54</span>
+              </div>
+              <span className="flex-shrink mx-3">8oz</span>
             </div>
 
             <div className="py-5 text-[#606060]">
@@ -90,11 +105,12 @@ const CoffeeMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">
-                  $3.5 / $4.4
+                  $3.54 / $4.43
                 </span>
               </div>
               <span className="flex-shrink mx-3">12oz / 16oz</span>
             </div>
+
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -102,7 +118,7 @@ const CoffeeMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">
-                  $2.7 / $3.3 / $3.7
+                  $2.66 / $3.27 / $3.72
                 </span>
               </div>
               <span className="flex-shrink mx-3">8oz / 12oz / 16oz</span>
@@ -163,7 +179,7 @@ const CoffeeMenu = () => {
                   Oat Milk
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$0.6</span>
+                <span className="flex-shrink mx-3 font-akkurat">$0.60</span>
               </div>
             </div>
           </div>
@@ -185,7 +201,7 @@ const CoffeeMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">
-                  $3.5 / $4.2 / $5
+                  $3.54 / $4.16 / $5.04
                 </span>
               </div>
               <span className="flex-shrink mx-3">8oz / 12oz / 16oz</span>
@@ -197,7 +213,9 @@ const CoffeeMenu = () => {
                   Mocha
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$6 / $6.5</span>
+                <span className="flex-shrink mx-3 font-akkurat">
+                  $6.00 / $6.50
+                </span>
               </div>
               <span className="flex-shrink mx-3">12oz / 16oz</span>
             </div>
@@ -208,7 +226,7 @@ const CoffeeMenu = () => {
                   Cherry Truffle Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$6</span>
+                <span className="flex-shrink mx-3 font-akkurat">$6.00</span>
               </div>
               <div className="flex flex-col gap-1">
                 <span className="flex-shrink mx-3">
@@ -225,7 +243,7 @@ const CoffeeMenu = () => {
                   Gingerbread Spice Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$6</span>
+                <span className="flex-shrink mx-3 font-akkurat">$6.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -248,7 +266,7 @@ const CoffeeMenu = () => {
                   Loose Leaf Tea
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4</span>
+                <span className="flex-shrink mx-3 font-akkurat">$4.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -265,7 +283,7 @@ const CoffeeMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">
-                  $4.7 / $5.2
+                  $4.70 / $5.20
                 </span>
               </div>
               <span className="flex-shrink mx-3">12oz / 16oz</span>
@@ -278,7 +296,7 @@ const CoffeeMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">
-                  $4.7 / $5.2
+                  $4.70 / $5.20
                 </span>
               </div>
               <span className="flex-shrink mx-3">12oz / 16oz</span>
@@ -291,7 +309,7 @@ const CoffeeMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">
-                  $4.7 / $5.2
+                  $4.70 / $5.20
                 </span>
               </div>
               <div className="flex flex-col">
@@ -308,7 +326,7 @@ const CoffeeMenu = () => {
                   Charcoal Citrus Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$6</span>
+                <span className="flex-shrink mx-3 font-akkurat">$6.00</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
@@ -324,7 +342,9 @@ const CoffeeMenu = () => {
                   Golden Spice Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$4.7 / $5</span>
+                <span className="flex-shrink mx-3 font-akkurat">
+                  $4.70 / $5.05
+                </span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">

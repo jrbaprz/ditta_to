@@ -18,130 +18,146 @@ const About = () => {
         </div>
       </section>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{
-          duration: 0.5,
-          delay: 1,
-        }}
-        viewport={{ once: true }}
-      >
-        <section className="px-10 mt-24 md:px-24 xl:mx-20 xl:px-0 2xl:px-24">
-          <div className="xl:grid grid-cols-2">
-            <div className="xl:flex xl:pl-32 xl:mr-20 xl:items-end">
-              <Image src={ceo} alt="Photo of CEO" />
-            </div>
-            <div className="flex flex-col justify-center text-center xl:pr-32 xl:text-left">
-              <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 lg:text-5xl xl:mt-0">
-                Ditta Artigianale Italy
-              </h1>
-              <h3 className="font-akkuratlight text-[#606060] leading-loose my-4 2xl:text-lg">
-                Ditta Artigianale is an Italian roasting company with an
-                international vision. We like to talk about coffee, we like to
-                travel to the most distant places in the world in order to find
-                exclusive coffees, to then carefully roast them and enhance all
-                of their natural aromas.
-              </h3>
-              <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
-                <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
-                  <a href="/menu">
-                    <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
-                      See our Menu
-                    </span>
-                  </a>
-                </div>
+      <section className="p-10 md:p-20 xl:px-52 xl:py-10 xl:grid grid-cols-2">
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.5,
+          }}
+          viewport={{ once: true }}
+        >
+          <Image src={ceo} alt="Photo of CEO" className="xl:pr-10" />
+        </motion.section>
+        <motion.section
+          initial={{ opacity: 0, x: 25 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.75,
+          }}
+          viewport={{ once: true }}
+          className="flex items-center"
+        >
+          <div className="flex flex-col justify-center mt-8 xl:mt-0">
+            <h1 className="text-center font-elgoc text-[#392e7a] text-5xl mt-5 xl:text-left xl:mt-0">
+              Where it Began
+            </h1>
+            <h2 className="flex justify-center font-akkuratlight text-[#606060] leading-loose my-4 text-center md:text-lg xl:text-left xl:leading-loose">
+              Ditta Artigianale is an Italian roasting company with an
+              international vision. We like to talk about coffee, we like to
+              travel to the most distant places in the world in order to find
+              exclusive coffees, to then carefully roast them and enhance all of
+              their natural aromas.
+            </h2>
+            <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
+              <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
+                <a href="/contact">
+                  <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
+                    Get in Touch
+                  </span>
+                </a>
               </div>
             </div>
           </div>
-        </section>
-      </motion.div>
+        </motion.section>
+      </section>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{
-          duration: 0.5,
-          delay: 0.25,
-        }}
-        viewport={{ once: true }}
-      >
-        <section className="px-10 mt-12 md:px-24 xl:mx-20 xl:px-0 2xl:px-24">
-          <div className="xl:grid grid-cols-2">
-            <div className="flex flex-col justify-center text-center xl:pl-32 xl:text-left">
-              <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 lg:text-5xl xl:mt-12">
-                Something about Ditta Toronto
-              </h1>
-              <h2 className="font-elgoc text-[#606060] text-2xl my-4 md:text-2xl">
-                Filler Header. Donec rutrum in justo eget. In porta nisi
-                fringilla arcu, ac vulputate dui tempor et.
-              </h2>
-              <h3 className="font-akkuratlight text-[#606060] leading-loose my-4 2xl:text-lg">
-                Quis lectus nulla at volutpat diam ut. Mollis aliquam ut
-                porttitor leo a diam, suspendisse, potenti nullam ac tortor
-                vitae purus faucibus ornare. Volutpat maecenas volutpat. Iaculis
-                at erat pellentesque adipiscing. Praesent tristique magna sit
-                amet purus gravida quis blandit turpis egestas pretium.
-              </h3>
-              <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
-                <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-12 xl:py-3 hover:bg-[#392e7a] duration-300 group">
-                  <a href="/reservations">
-                    <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
-                      Visit Us
-                    </span>
-                  </a>
-                </div>
+      <section className="p-10 md:p-20 xl:px-52 xl:py-10 xl:grid grid-cols-2">
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.5,
+          }}
+          viewport={{ once: true }}
+          className="order-2"
+        >
+          <Image
+            src={lounge}
+            alt="Photo of Ditta Lounge"
+            className="xl:pl-10"
+          />
+        </motion.section>
+        <motion.section
+          initial={{ opacity: 0, x: -25 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.75,
+          }}
+          viewport={{ once: true }}
+          className="flex items-center"
+        >
+          <div className="order-1 flex flex-col justify-center mt-8 xl:mt-0">
+            <h1 className="text-center font-elgoc text-[#392e7a] text-5xl mt-5 xl:text-left xl:mt-0">
+              Opening in Toronto
+            </h1>
+            <h2 className="flex justify-center font-akkuratlight text-[#606060] leading-loose my-4 text-center md:text-lg xl:text-left xl:leading-loose">
+              The design philosophy behind our location began with the goal of
+              blending the modern sophistication of the Toronto restaurant
+              experience with the classic warmth of Italian coffee bar culture,
+              right in the heart of the downtown core.
+            </h2>
+            <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
+              <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
+                <a href="/reservations">
+                  <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
+                    Come Visit Us
+                  </span>
+                </a>
               </div>
             </div>
-            <div className="mt-20 xl:mt-0 xl:flex xl:pl-28 xl:mr-20 xl:items-end">
-              <Image src={lounge} alt="Photo of lounge" />
-            </div>
           </div>
-        </section>
-      </motion.div>
+        </motion.section>
+      </section>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{
-          duration: 0.5,
-          delay: 0.25,
-        }}
-        viewport={{ once: true }}
-      >
-        <section className="px-10 mt-24 md:px-24 xl:mx-20 xl:px-0 2xl:px-24">
-          <div className="xl:grid grid-cols-2">
-            <div className="xl:flex xl:pl-32 xl:mr-20 xl:items-end">
-              <Image src={salad} alt="Photo of Salad" />
-            </div>
-            <div className="flex flex-col justify-center text-center xl:pr-32 xl:text-left">
-              <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 lg:text-5xl xl:mt-0">
-                Something About Ditta Toronto Food
-              </h1>
-              <h2 className="font-elgoc text-[#606060] text-2xl my-4 md:text-2xl">
-                Filler Header. Donec rutrum in justo eget. In porta nisi
-                fringilla arcu, ac vulputate dui tempor et.
-              </h2>
-              <h3 className="font-akkuratlight text-[#606060] leading-loose my-4 2xl:text-lg">
-                Quis lectus nulla at volutpat diam ut. Mollis aliquam ut
-                porttitor leo a diam, suspendisse, potenti nullam ac tortor
-                vitae purus faucibus ornare. Volutpat maecenas volutpat. Iaculis
-                at erat pellentesque adipiscing. Praesent tristique magna sit
-                amet purus gravida quis blandit turpis egestas pretium.
-              </h3>
-              <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
-                <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
-                  <a href="/menu">
-                    <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
-                      See our Menu
-                    </span>
-                  </a>
-                </div>
+      <section className="p-10 md:p-20 xl:px-52 xl:py-10 xl:grid grid-cols-2">
+        <motion.section
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.5,
+          }}
+          viewport={{ once: true }}
+        >
+          <Image src={salad} alt="Photo of Ditta Salad" className="xl:pr-10" />
+        </motion.section>
+        <motion.section
+          initial={{ opacity: 0, x: 25 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.75,
+          }}
+          viewport={{ once: true }}
+          className="flex items-center"
+        >
+          <div className="flex flex-col justify-center mt-8 xl:mt-0">
+            <h1 className="text-center font-elgoc text-[#392e7a] text-5xl mt-5 xl:text-left xl:mt-0">
+              Our Food Selection
+            </h1>
+            <h2 className="flex justify-center font-akkuratlight text-[#606060] leading-loose my-4 text-center md:text-lg xl:text-left xl:leading-loose">
+              Ditta Toronto&apos;s menu is our take on breakfast and brunch with
+              inspiration from Italian classics. With plenty of seating in our
+              restaurant paired with a delicious espresso, we&apos;re sure you
+              will enjoy our offerings.
+            </h2>
+            <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
+              <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
+                <a href="/menu">
+                  <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
+                    Our Menu
+                  </span>
+                </a>
               </div>
             </div>
           </div>
-        </section>
-      </motion.div>
+        </motion.section>
+      </section>
 
       <div className="border-t-[1px] mx-10 my-12 lg:my-16" />
     </>
