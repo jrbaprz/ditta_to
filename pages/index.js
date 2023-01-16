@@ -87,7 +87,7 @@ const Home = () => {
             </h1>
             <h2 className="flex justify-center font-akkuratlight text-[#606060] leading-loose my-4 mx-auto md:text-lg">
               Our goal at Ditta Artiginale Toronto is to bring a very
-              sophisticated yet effortless ambience to the heart of Toronto.
+              sophisticated yet effortless ambience to the heart of the city.
               From our thoughtfully designed and beautiful space, to the
               impeccable Italian coffee. A gift from Florence, here to enjoy.
             </h2>
