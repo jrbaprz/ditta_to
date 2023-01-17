@@ -8,7 +8,7 @@ import cocktail from "../public/images/overlays/cocktail.jpg";
 const MenuCategories = () => {
   return (
     <>
-      <section className="grid m-8 gap-8 grid-cols-1 md:m-12 md:gap-12 lg:grid-cols-3">
+      <section className="grid gap-8 grid-cols-1 md:m-12 md:gap-12 lg:grid-cols-3">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

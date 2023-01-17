@@ -24,85 +24,86 @@ const Menu = () => {
       </section>
 
       {/* ===== Categories ===== */}
-
-      <section className="grid m-8 gap-8 grid-cols-1 md:m-12 md:gap-12 lg:grid-cols-3">
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{
-            duration: 0.5,
-          }}
-          viewport={{ once: true }}
-        >
-          <div className="relative flex justify-center items-center">
-            <AnchorLink href="#coffee">
-              <Image
-                src={tulip}
-                alt="Photo of Ditta Cappuccino"
-                className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
-              />
-            </AnchorLink>
-            <div className="absolute text-white">
-              <h1 className="font-elgoc text-5xl flex justify-center">
-                Coffee & Tea
-              </h1>
+      <div className="p-6 xl:px-12">
+        <section className="grid gap-8 grid-cols-1 md:m-12 md:gap-12 lg:grid-cols-3">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              duration: 0.5,
+            }}
+            viewport={{ once: true }}
+          >
+            <div className="relative flex justify-center items-center">
+              <AnchorLink href="#coffee">
+                <Image
+                  src={tulip}
+                  alt="Photo of Ditta Cappuccino"
+                  className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
+                />
+              </AnchorLink>
+              <div className="absolute text-white">
+                <h1 className="font-elgoc text-5xl flex justify-center">
+                  Coffee & Tea
+                </h1>
+              </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{
-            duration: 0.5,
-            delay: 0.25,
-          }}
-          viewport={{ once: true }}
-        >
-          <div className="relative flex justify-center items-center">
-            <AnchorLink href="#food">
-              <Image
-                src={almond}
-                alt="Photo of almond croissant"
-                className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
-              />
-            </AnchorLink>
-            <div className="absolute text-white">
-              <h1 className="font-elgoc text-5xl flex justify-center">Food</h1>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.25,
+            }}
+            viewport={{ once: true }}
+          >
+            <div className="relative flex justify-center items-center">
+              <AnchorLink href="#food">
+                <Image
+                  src={almond}
+                  alt="Photo of almond croissant"
+                  className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
+                />
+              </AnchorLink>
+              <div className="absolute text-white">
+                <h1 className="font-elgoc text-5xl flex justify-center">
+                  Food
+                </h1>
+              </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{
-            duration: 0.5,
-            delay: 0.5,
-          }}
-          viewport={{ once: true }}
-        >
-          <div className="relative flex justify-center items-center">
-            <AnchorLink href="#drinks">
-              <Image
-                src={cocktail}
-                alt="Photo of Ditta Cocktail"
-                className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
-              />
-            </AnchorLink>
-            <div className="absolute text-white">
-              <h1 className="font-elgoc text-5xl flex justify-center">
-                Drinks
-              </h1>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.5,
+            }}
+            viewport={{ once: true }}
+          >
+            <div className="relative flex justify-center items-center">
+              <AnchorLink href="#drinks">
+                <Image
+                  src={cocktail}
+                  alt="Photo of Ditta Cocktail"
+                  className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
+                />
+              </AnchorLink>
+              <div className="absolute text-white">
+                <h1 className="font-elgoc text-5xl flex justify-center">
+                  Drinks
+                </h1>
+              </div>
             </div>
-          </div>
-        </motion.div>
-      </section>
+          </motion.div>
+        </section>
 
-      <div id="coffee" />
-      <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
+        <div id="coffee" />
+        <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
 
-      <section>
         <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -133,24 +134,26 @@ const Menu = () => {
         >
           <CoffeeMenu />
         </motion.div>
+      </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{
-            duration: 0.5,
-            delay: 0.25,
-          }}
-          viewport={{ once: true }}
-        >
-          <div className="my-10">
-            <Image src={cappuccino} alt="cappuccino" />
-          </div>
-        </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          duration: 0.5,
+          delay: 0.25,
+        }}
+        viewport={{ once: true }}
+      >
+        <div className="my-10">
+          <Image src={cappuccino} alt="cappuccino" />
+        </div>
+      </motion.div>
 
-        <div id="food" />
-        <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
+      <div id="food" />
+      <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
 
+      <div className="px-6 xl:px-12">
         <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -181,24 +184,26 @@ const Menu = () => {
         >
           <FoodMenu />
         </motion.div>
+      </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{
-            duration: 0.5,
-            delay: 0.25,
-          }}
-          viewport={{ once: true }}
-        >
-          <div className="my-10">
-            <Image src={salmon} alt="salmon" />
-          </div>
-        </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          duration: 0.5,
+          delay: 0.25,
+        }}
+        viewport={{ once: true }}
+      >
+        <div className="my-10">
+          <Image src={salmon} alt="salmon" />
+        </div>
+      </motion.div>
 
-        <div id="drinks" />
-        <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
+      <div id="drinks" />
+      <div className="border-t-[1px] mx-5 mt-12 md:mx-12 md:mt-20" />
 
+      <div className="px-6 xl:px-12">
         <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -213,8 +218,8 @@ const Menu = () => {
             Drinks
           </h1>
           <h2 className="font-akkuratlight text-[#606060] leading-loose my-4 mx-auto text-center md:w-[40rem] lg:text-lg">
-            Refreshing hand-crafted beverages prepared with ingredients made
-            in-house.
+            Refreshing hand-crafted beverages made with locally sourced
+            ingredients prepared in-house.
           </h2>
         </motion.section>
 
@@ -230,7 +235,7 @@ const Menu = () => {
         >
           <DrinksMenu />
         </motion.div>
-      </section>
+      </div>
 
       <div className="border-b-[1px] mx-5 lg:my-16" />
     </>
