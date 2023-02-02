@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import tulip from "../public/images/overlays/tulip.jpg";
-import almond from "../public/images/overlays/almond.jpg";
-import cocktail from "../public/images/overlays/cocktail.jpg";
+import portafilter from "../public/images/overlays/portafilter.jpg";
+import sandwich from "../public/images/overlays/sandwich.jpg";
+import matcha from "../public/images/overlays/matcha.jpg";
 
 const MenuCategories = () => {
   return (
@@ -20,8 +20,8 @@ const MenuCategories = () => {
           <div className="relative flex justify-center items-center">
             <a href="/menu#coffee">
               <Image
-                src={tulip}
-                alt="Photo of Ditta Cappuccino"
+                src={portafilter}
+                alt="Photo of portafilter"
                 className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
               />
             </a>
@@ -45,7 +45,7 @@ const MenuCategories = () => {
           <div className="relative flex justify-center items-center">
             <a href="/menu#food">
               <Image
-                src={almond}
+                src={sandwich}
                 alt="Photo of almond croissant"
                 className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
               />
@@ -68,8 +68,8 @@ const MenuCategories = () => {
           <div className="relative flex justify-center items-center">
             <a href="/menu#drinks">
               <Image
-                src={cocktail}
-                alt="Photo of Ditta Cocktail"
+                src={matcha}
+                alt="Photo of Ditta matcha latte"
                 className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
               />
             </a>

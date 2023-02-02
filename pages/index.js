@@ -48,9 +48,9 @@ const Home = () => {
             </div>
 
             <div className="border bg-black bg-opacity-40 px-6 py-1 md:px-9 md:py-2 xl:px-10 xl:py-3 hover:bg-white duration-300 group hover:text-white">
-              <a href="/reservations">
+              <a href="/contact">
                 <span className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
-                  Book a Table
+                  Contact Us
                 </span>
               </a>
             </div>
@@ -59,7 +59,7 @@ const Home = () => {
       </section>
 
       <div className="p-6 xl:p-12">
-        <section className="pb-12 xl:grid grid-cols-2">
+        <section className="lg:pb-12 xl:grid grid-cols-2">
           <motion.div
             initial={{ opacity: 0, x: -25 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -92,7 +92,7 @@ const Home = () => {
             viewport={{ once: true }}
             className="flex flex-col justify-center text-center xl:pr-32 xl:text-left"
           >
-            <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 lg:text-6xl xl:mt-0">
+            <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 xl:mt-0">
               Welcome to Toronto
             </h1>
             <h2 className="flex justify-center font-akkuratlight text-[#606060] leading-loose my-4 w-80 mx-auto md:text-lg md:w-full md:px-10 xl:px-0">
@@ -101,7 +101,7 @@ const Home = () => {
               thoughtfully designed and beautiful space, to the impeccable
               Italian coffee. A gift from Florence, here to enjoy.
             </h2>
-            <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
+            {/* <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
               <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
                 <a href="/reservations">
                   <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
@@ -109,11 +109,11 @@ const Home = () => {
                   </span>
                 </a>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </section>
 
-        <motion.section
+        {/* <motion.section
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -129,7 +129,7 @@ const Home = () => {
           <div className="mt-5 flex justify-center">
             <Bookings />
           </div>
-        </motion.section>
+        </motion.section> */}
 
         <motion.section
           initial={{ opacity: 0, y: 25 }}

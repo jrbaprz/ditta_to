@@ -68,14 +68,14 @@ const Drawer = ({ setOpen }) => {
             >
               <a href="/about">About</a>
             </div>
-            <div
+            {/* <div
               onClick={() => {
                 setOpen(false);
               }}
               className="hover:text-[#cfe600] duration-300"
             >
               <a href="/reservations">Reservations</a>
-            </div>
+            </div> */}
             <div
               onClick={() => {
                 setOpen(false);

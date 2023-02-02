@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ceo from "../public/images/photos/ceo.jpg";
-import lounge from "../public/images/overlays/lounge.jpg";
+import chair from "../public/images/photos/chair.jpg";
 import salad from "../public/images/photos/salad.jpg";
 import { motion } from "framer-motion";
 
@@ -77,8 +77,8 @@ const About = () => {
             className="order-2"
           >
             <Image
-              src={lounge}
-              alt="Photo of Ditta Lounge"
+              src={chair}
+              alt="Photo of Ditta chair"
               className="xl:pl-10"
             />
           </motion.section>

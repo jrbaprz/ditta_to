@@ -6,9 +6,9 @@ import FoodMenu from "../components/foodMenu";
 import DrinksMenu from "../components/drinksMenu";
 import salmon from "../public/images/photos/salmon.jpg";
 import cappuccino from "../public/images/photos/cappuccino.jpg";
-import tulip from "../public/images/overlays/tulip.jpg";
-import almond from "../public/images/overlays/almond.jpg";
-import cocktail from "../public/images/overlays/cocktail.jpg";
+import portafilter from "../public/images/overlays/portafilter.jpg";
+import sandwich from "../public/images/overlays/sandwich.jpg";
+import matcha from "../public/images/overlays/matcha.jpg";
 import { motion } from "framer-motion";
 
 const Menu = () => {
@@ -37,8 +37,8 @@ const Menu = () => {
             <div className="relative flex justify-center items-center">
               <AnchorLink href="#coffee">
                 <Image
-                  src={tulip}
-                  alt="Photo of Ditta Cappuccino"
+                  src={portafilter}
+                  alt="Photo of Ditta portafilter"
                   className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
                 />
               </AnchorLink>
@@ -62,8 +62,8 @@ const Menu = () => {
             <div className="relative flex justify-center items-center">
               <AnchorLink href="#food">
                 <Image
-                  src={almond}
-                  alt="Photo of almond croissant"
+                  src={sandwich}
+                  alt="Photo of sandwich"
                   className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
                 />
               </AnchorLink>
@@ -87,8 +87,8 @@ const Menu = () => {
             <div className="relative flex justify-center items-center">
               <AnchorLink href="#drinks">
                 <Image
-                  src={cocktail}
-                  alt="Photo of Ditta Cocktail"
+                  src={matcha}
+                  alt="Photo of Ditta matcha latte"
                   className="object-cover h-80 md:h-[40rem] lg:h-72 xl:h-[25rem]"
                 />
               </AnchorLink>
