@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import ceo from "../public/images/photos/ceo.jpg";
 import chair from "../public/images/photos/chair.jpg";
+import chair1 from "../public/images/overlays/chair.jpg";
 import salad from "../public/images/photos/salad.jpg";
 import { motion } from "framer-motion";
 
@@ -10,15 +11,22 @@ const About = () => {
     <>
       {/* ===== Banner ===== */}
 
-      <section className="relative py-64 bg-[url('../public/images/overlays/chair.jpg')] bg-cover bg-top overflow-hidden lg:py-[250px] xl:py-[295px]">
-        <div className="container mx-auto flex flex-col items-center text-center">
+      <section className="relative overflow-hidden flex items-center justify-center h-[40rem] lg:h-[43rem]">
+        <Image
+          src={chair1}
+          alt="Image of Ditta Counter"
+          className="object-cover w-screen h-screen"
+          fill
+          priority
+        />
+        <div className="z-20 container mx-auto flex flex-col items-center text-center">
           <h1 className=" 10 text-white font-elgoc text-6xl lg:text-7xl">
             About Us
           </h1>
         </div>
       </section>
 
-      <div className="p-6 xl:px-52">
+      <div className="p-6 xl:px-52 overflow-hidden">
         <section className="mt-6 mb-24 xl:mt-20 xl:grid grid-cols-2">
           <motion.section
             initial={{ opacity: 0 }}
@@ -104,7 +112,7 @@ const About = () => {
               </h2>
               <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">
                 <div className="border-[#392e7a] border-[1px] px-6 py-2 md:px-9 md:py-2 xl:mr-auto xl:px-4 xl:py-3 hover:bg-[#392e7a] duration-300 group">
-                  <a href="/reservations">
+                  <a href="/contact">
                     <span className="relative text-xs text-[#392e7a] uppercase font-akkurat tracking-widest group-hover:text-white">
                       Come Visit Us
                     </span>

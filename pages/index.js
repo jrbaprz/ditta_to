@@ -143,7 +143,7 @@ const Home = () => {
         >
           <section className="flex flex-col justify-center">
             <h1 className="text-center font-elgoc text-[#392e7a] text-5xl">
-              The Coffee Selection
+              Our Coffee Selection
             </h1>
             <h2 className="font-akkuratlight text-[#606060] leading-loose my-4 mx-auto text-center md:w-[40rem] md:text-lg">
               Our experts travel the world in search of the most exclusive

@@ -7,12 +7,10 @@ const CoffeeMenu = () => {
         <div className="p-2 border-[#392e7a] border-[1px] text-sm font-akkuratlight md:p-10 lg:mx-16 xl:grid grid-cols-2 xl:mx-20 xl:p-20 xl:px-28 xl:space-x-10 2xl:mx-80 2xl:space-x-16">
           <div>
             {/* ===== Coffee ===== */}
-
             <div className="py-2 mt-4 mx-3 md:py-8">
               <div className="text-[#392e7a] text-2xl font-akkurat">Coffee</div>
               <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl font-akkurat text-[#392e7a]">
@@ -25,7 +23,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">Solo / Doppio</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -38,7 +35,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">Solo / Doppio</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -51,7 +47,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">Solo / Doppio</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -62,7 +57,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">6oz</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -73,7 +67,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">8oz</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -86,7 +79,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">12oz / 16oz</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -97,7 +89,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">8oz</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -110,7 +101,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">12oz / 16oz</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -123,7 +113,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">8oz / 12oz / 16oz</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -136,16 +125,13 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">(10am - 3pm)</span>
             </div>
-
             {/* ===== Milk Options ===== */}
-
             <div className="py-2 mt-4 mx-3 md:py-8">
               <div className="text-[#392e7a] text-2xl font-akkurat">
                 Milk Options
               </div>
               <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -154,7 +140,6 @@ const CoffeeMenu = () => {
                 <div className="flex-grow border-t border-gray-300 mx-3" />
               </div>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -163,7 +148,6 @@ const CoffeeMenu = () => {
                 <div className="flex-grow border-t border-gray-300 mx-3" />
               </div>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -172,7 +156,6 @@ const CoffeeMenu = () => {
                 <div className="flex-grow border-t border-gray-300 mx-3" />
               </div>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -182,18 +165,13 @@ const CoffeeMenu = () => {
                 <span className="flex-shrink mx-3 font-akkurat">$0.60</span>
               </div>
             </div>
-          </div>
-
-          {/* ===== Specialty Drinks ===== */}
-
-          <div>
+            {/* ===== Specialty Drinks ===== */}
             <div className="py-2 mt-4 mx-3 md:py-8">
               <div className="text-[#392e7a] text-2xl font-akkurat">
                 Specialty Drinks
               </div>
               <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -206,7 +184,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">8oz / 12oz / 16oz</span>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -219,7 +196,6 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">12oz / 16oz</span>
             </div>
-
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -236,7 +212,6 @@ const CoffeeMenu = () => {
                 <span className="flex-shrink mx-3">12oz</span>
               </div>
             </div>
-
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
@@ -252,7 +227,9 @@ const CoffeeMenu = () => {
                 <span className="flex-shrink mx-3">12oz</span>
               </div>
             </div>
+          </div>
 
+          <div>
             {/* ===== Tea ===== */}
 
             <div className="py-2 mt-4 mx-3 md:py-8">
@@ -351,6 +328,98 @@ const CoffeeMenu = () => {
                   Cardamom - Turmeric - Cinnamon - Ginger
                 </span>
                 <span className="flex-shrink mx-3">12oz / 16oz</span>
+              </div>
+            </div>
+
+            {/* ===== House Made Sodas ===== */}
+
+            <div>
+              <div className="py-2 mt-4 mx-3 md:py-8">
+                <div className="text-[#392e7a] text-2xl font-akkurat">
+                  House Made Sodas
+                </div>
+                <div className="flex-grow border-t border-[#392e7a] mt-2" />
+              </div>
+
+              <div className="pt-5 pb-3 text-[#606060]">
+                <div className="relative flex items-center">
+                  <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                    Limone
+                  </span>
+                  <div className="flex-grow border-t border-gray-300"></div>
+                  <span className="flex-shrink mx-3 font-akkurat">$5.00</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="flex-shrink mx-3">
+                    Cold-Pressed Lemon Juice - Simple Syrup - Sparkling Water
+                  </span>
+                </div>
+              </div>
+
+              <div className="pt-5 pb-3 text-[#606060]">
+                <div className="relative flex items-center">
+                  <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                    Tonica
+                  </span>
+                  <div className="flex-grow border-t border-gray-300"></div>
+                  <span className="flex-shrink mx-3 font-akkurat">$5.00</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="flex-shrink mx-3">
+                    House-Made Charcoal Citrus Syrup - Tonic Water
+                  </span>
+                </div>
+              </div>
+
+              <div className="pt-5 pb-3 text-[#606060]">
+                <div className="relative flex items-center">
+                  <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                    Pompelmo
+                  </span>
+                  <div className="flex-grow border-t border-gray-300"></div>
+                  <span className="flex-shrink mx-3 font-akkurat">$5.00</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="flex-shrink mx-3">
+                    Cold-Pressed Grapefruit Juice - Ginger Beer - Sparkling
+                    Water
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* ===== Fresh Juices ===== */}
+
+            <div className="py-2 mt-4 mx-3 md:py-8">
+              <div className="text-[#392e7a] text-2xl font-akkurat">
+                Fresh Juices
+              </div>
+              <div className="flex-grow border-t border-[#392e7a] mt-2" />
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Orange Juice
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$4.50</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">Cold-Pressed</span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Grapefruit Juice
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$4.50</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">Cold-Pressed</span>
               </div>
             </div>
           </div>

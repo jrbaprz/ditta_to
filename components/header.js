@@ -51,6 +51,12 @@ const Header = () => {
                 <a href="/">
                   <ul className="hidden md:flex gap-12 text-black font-akkuratlight justify-center">
                     <a
+                      href="/"
+                      className="hover:text-[#392e7a] bg-left-bottom bg-gradient-to-r from-[#392e7a] to-[#392e7a] bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
+                    >
+                      Home
+                    </a>
+                    <a
                       href="/menu"
                       className="hover:text-[#392e7a] bg-left-bottom bg-gradient-to-r from-[#392e7a] to-[#392e7a] bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
                     >
@@ -80,6 +86,12 @@ const Header = () => {
             ) : (
               <div className="transition-all duration-700">
                 <ul className="hidden md:flex gap-12 text-white font-akkuratlight justify-center">
+                  <a
+                    href="/"
+                    className="hover:text-[#f8e700] bg-left-bottom bg-gradient-to-r from-[#f8e700] to-[#f8e700] bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"
+                  >
+                    Home
+                  </a>
                   <a
                     href="/menu"
                     className="hover:text-[#f8e700] bg-left-bottom bg-gradient-to-r from-[#f8e700] to-[#f8e700] bg-[length:0%_1px] bg-no-repeat hover:bg-[length:100%_1px] transition-all duration-300 ease-out"

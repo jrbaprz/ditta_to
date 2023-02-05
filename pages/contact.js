@@ -2,15 +2,29 @@ import React from "react";
 import Map from "../components/googleMap";
 import Email from "../components/email";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import machine from "../public/images/overlays/machine.jpg";
 
 const Contact = () => {
   return (
     <>
-      <section className="relative py-64 bg-[url('../public/images/overlays/machine.jpg')] bg-cover bg-top overflow-hidden lg:py-[250px] xl:py-[295px]">
-        <div className="container mx-auto flex flex-col items-center text-center">
-          <h1 className=" 10 text-white font-elgoc text-6xl lg:text-7xl"></h1>
-        </div>
+      <section className="relative overflow-hidden flex items-center justify-center h-[40rem] lg:h-[43rem]">
+        <Image
+          src={machine}
+          alt="Image of Ditta Espresso Machine"
+          className="object-cover w-screen h-screen"
+          fill
+          priority
+        />
       </section>
+
+      {/* <section>
+        <Image
+          src={Machine}
+          alt="Image of Ditta Espresso Machine"
+          className="object-cover w-screen h-[35rem] lg:h-[42rem]"
+        />
+      </section> */}
 
       <section className="px-10 mt-10 mb-16 md:px-24 lg:mt-20 xl:mx-20 xl:px-0 2xl:px-24">
         <div className="lg:grid grid-cols-2">

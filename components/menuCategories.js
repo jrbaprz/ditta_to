@@ -8,7 +8,7 @@ import matcha from "../public/images/overlays/matcha.jpg";
 const MenuCategories = () => {
   return (
     <>
-      <section className="grid gap-8 grid-cols-1 md:m-12 md:gap-12 lg:grid-cols-3">
+      <section className="grid gap-8 grid-cols-1 md:m-12 md:gap-12 lg:grid-cols-2">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -27,7 +27,7 @@ const MenuCategories = () => {
             </a>
             <div className="absolute text-white">
               <h1 className="font-elgoc text-5xl flex justify-center">
-                Coffee & Tea
+                Drinks
               </h1>
             </div>
           </div>
@@ -56,7 +56,7 @@ const MenuCategories = () => {
           </div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{
@@ -79,7 +79,7 @@ const MenuCategories = () => {
               </h1>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </section>
     </>
   );
