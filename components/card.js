@@ -12,7 +12,7 @@ const Card = (props) => {
           {props.title}
         </div>
         <div className="flex font-elgoc text-[#392e7a] justify-center items-center text-xl">
-          {props.region}
+        {props.process} - {props.region}
         </div>
         <div className="flex font-akkuratlight text-[#606060] justify-center text-center items-center pt-4">
           {props.notes}

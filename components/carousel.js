@@ -42,6 +42,7 @@ export default function Carousel() {
                   img={items.img}
                   title={items.title}
                   region={items.region}
+                  process={items.process}
                   notes={items.notes}
                 />
               </SwiperSlide>
