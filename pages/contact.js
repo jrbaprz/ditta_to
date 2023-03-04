@@ -53,14 +53,21 @@ const Contact = () => {
               <h1 className="font-elgoc text-[#392e7a] mt-8 text-4xl lg:mt-16 lg:text-5xl xl:mt-0">
                 Visit Our Cafe
               </h1>
-              <h2 className="font-akkuratlight text-[#606060] leading-loose mt-4 2xl:text-lg">
+              <h2 className="font-akkurat text-[#606060] leading-loose mt-4 2xl:text-lg">
                 612 Richmond St W, Toronto, ON
               </h2>
-              <h2 className="font-akkuratlight text-[#606060] leading-loose 2xl:text-lg">
-                Monday - Sunday
+              <h2 className="font-akkurat text-[#606060] leading-loose 2xl:text-lg pt-4">
+                Monday - Friday
               </h2>
               <h2 className="font-akkuratlight text-[#606060] leading-loose 2xl:text-lg">
-                8:00am - 5:00pm
+                8:00am - 4:00pm
+              </h2>
+
+              <h2 className="font-akkurat text-[#606060] leading-loose 2xl:text-lg pt-4">
+                Saturday - Sunday
+              </h2>
+              <h2 className="font-akkuratlight text-[#606060] leading-loose 2xl:text-lg">
+                9:00am - 4:00pm
               </h2>
 
               <div className="flex justify-center mt-4 gap-4 md:flex-row xl:mt-10 xl:gap-6">

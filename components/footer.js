@@ -63,11 +63,14 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col font-akkuratlight text-white text-lg">
-              <span>Monday - Sunday</span>
-              <span className="mb-6">8:00am - 5:00pm</span>
+              <span className="font-akkurat">Monday - Friday</span>
+              <span className="mb-6">8:00am - 4:00pm</span>
               <span />
-              <span>612 Richmond St. W</span>
-              <span>Toronto, ON</span>
+              <span className="font-akkurat">Saturday - Sunday</span>
+              <span className="mb-6">9:00am - 4:00pm</span>
+              <span />
+              <span className="font-akkurat">612 Richmond St. W</span>
+              <span className="font-akkurat">Toronto, ON</span>
             </div>
           </div>
         </div>
