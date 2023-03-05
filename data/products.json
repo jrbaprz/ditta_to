@@ -1,61 +1,64 @@
 [
-    {
-        "id": 0,
-        "title": "Mamma Mia",
-        "region": "Blend",
-        "process": "Washed, anaerobic, natural, washed",
-        "notes": "Dark Chocolate - Dark Fruits - Black Cherries",
-        "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
-        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-mamma-mia_540x.png?v=1622131311"
-    },
-    {
-        "id": 1,
-        "title": "Finca Santa Fè ",
-        "region": "Mexico",
-        "process": "Washed",
-        "notes": "Spicy - Walnuts - Chocolate",
-        "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
-        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-mexico-finca-santa-fe_1080x.png?v=1675688101"
-    },
-    {
-        "id": 2,
-        "title": "Kintamani",
-        "region": "Indonesia",
-        "notes": "Melon - Orange Rind - Sugar Cane",
-        "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
-        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/DAR315Kintamani_540x.png?v=1659954304"
-    },
-    {
-        "id": 3,
-        "title": "Wine Yeast & Strawberry",
-        "region": "Colombia",
-        "notes": "Mango - Strawberry - Orange Blossom - Cocoa",
-        "description": "This coffee was grown by Jairo Arcila at the farm Santa Mónica. This coffee was exposed to a dry anaerobic fermentation period of 72 hours with the pulp on. During this fermentation stage strawberry and wine yeast were added. The cherries were then pulped and placed to dry on raised beds with ripe strawberry placed amongst the coffee until the ideal moisture content was achieved.",
-        "img":"https://cdn.shopify.com/s/files/1/0569/9292/3812/products/Strawberryweb_1080x.png?v=1668014048"
-    },
-    {
-        "id": 2,
-        "title": "Jump",
-        "region": "Blend",
-        "notes": "Marzapan - Caramel - Honey",
-        "description": "It is the union of three small farms that produce specialty coffees, free of defects and of great taste complexity. Jump is the perfect result of the art of Italian mixing with an international approach and taste. Our blend stands out for its medium acidity with hints of lime and lemon, combined with pleasant notes of hazelnut and almond. Very pleasant chocolate finish.",
-        "img":"https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-jump_1080x.png?v=1622131305"
-    },
-    {
-        "id": 3,
-        "title": "Finca El Puente",
-        "region": "Honduras",
-        "notes": "Mango - Lime - Pineapple",
-        "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
-        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-honduras-finca-el-puente-geisha-washed_540x.png?v=1622131299"
-    },
-    {
-        "id": 4,
-        "title": "Gifted AA",
-        "region": "Kenya",
-        "process": "Washed",
-        "notes": "Blueberry - Raspberry - Honey",
-        "description": "Soft and fruity with aromas of rose and raspberry, this washed process is separated from Moses Kamura Nganga, who owns Gifted Estate - where he and his family grow SL28, SL34 and Ruiru 11 on a small 9-acre plot in Gatundu, County of Kiambu, Kenya.",
-        "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/KenyaGiftedaasito_1080x.png?v=1662631597"
-    }
+  {
+    "id": 0,
+    "title": "Mamma Mia",
+    "region": "Blend",
+    "process": "Multi Process",
+    "notes": "Dark Chocolate - Dark Fruits - Black Cherries",
+    "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
+    "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-mamma-mia_540x.png?v=1622131311"
+  },
+  {
+    "id": 1,
+    "title": "Finca Santa Fè ",
+    "region": "Mexico",
+    "process": "Washed",
+    "notes": "Spicy - Walnuts - Chocolate",
+    "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
+    "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-mexico-finca-santa-fe_1080x.png?v=1675688101"
+  },
+  {
+    "id": 2,
+    "title": "Kintamani",
+    "region": "Indonesia",
+    "process": "Anaerobic Washed Honey",
+    "notes": "Melon - Orange Rind - Sugar Cane",
+    "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
+    "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/DAR315Kintamani_540x.png?v=1659954304"
+  },
+  {
+    "id": 3,
+    "title": "Wine Yeast & Strawberry",
+    "region": "Colombia",
+    "process": "Wine Yeast & Strawberry",
+    "notes": "Mango - Strawberry - Orange Blossom - Cocoa",
+    "description": "This coffee was grown by Jairo Arcila at the farm Santa Mónica. This coffee was exposed to a dry anaerobic fermentation period of 72 hours with the pulp on. During this fermentation stage strawberry and wine yeast were added. The cherries were then pulped and placed to dry on raised beds with ripe strawberry placed amongst the coffee until the ideal moisture content was achieved.",
+    "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/Strawberryweb_1080x.png?v=1668014048"
+  },
+  {
+    "id": 2,
+    "title": "Jump",
+    "region": "Blend",
+    "process": "Multi Process",
+    "notes": "Marzapan - Caramel - Honey",
+    "description": "It is the union of three small farms that produce specialty coffees, free of defects and of great taste complexity. Jump is the perfect result of the art of Italian mixing with an international approach and taste. Our blend stands out for its medium acidity with hints of lime and lemon, combined with pleasant notes of hazelnut and almond. Very pleasant chocolate finish.",
+    "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-jump_1080x.png?v=1622131305"
+  },
+  {
+    "id": 3,
+    "title": "Finca El Puente",
+    "region": "Honduras",
+    "notes": "Mango - Lime - Pineapple",
+    "description": "MammaMia Espresso Blend, created for customers who do not like much acidity and particularly fruity scents. Francesco's goal was to achieve balance in the cup, where all the main characteristics (acidity, sweetness and bitterness) worked together in full harmony.",
+    "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/prodotto-honduras-finca-el-puente-geisha-washed_540x.png?v=1622131299"
+  },
+  {
+    "id": 4,
+    "title": "Gifted AA",
+    "region": "Kenya",
+    "process": "Washed",
+    "notes": "Blueberry - Raspberry - Honey",
+    "description": "Soft and fruity with aromas of rose and raspberry, this washed process is separated from Moses Kamura Nganga, who owns Gifted Estate - where he and his family grow SL28, SL34 and Ruiru 11 on a small 9-acre plot in Gatundu, County of Kiambu, Kenya.",
+    "img": "https://cdn.shopify.com/s/files/1/0569/9292/3812/products/KenyaGiftedaasito_1080x.png?v=1662631597"
+  }
 ]

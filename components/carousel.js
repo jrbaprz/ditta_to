@@ -36,7 +36,7 @@ export default function Carousel() {
         >
           {Content.map((items) => {
             return (
-              <SwiperSlide key={items.id} className="px-8 md:px-20 xl:px-28">
+              <SwiperSlide key={items.id}>
                 <Card
                   key={items.id}
                   img={items.img}
