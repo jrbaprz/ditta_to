@@ -59,7 +59,7 @@ const Home = () => {
       </section>
 
       <div className="p-6 xl:p-12">
-        <section className="lg:pb-12 xl:grid grid-cols-2">
+        <section className="md:px-28 lg:pb-12 xl:grid grid-cols-2">
           <motion.div
             initial={{ opacity: 0, x: -25 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -70,7 +70,7 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <video
-              className="md:px-16"
+              className="p-2 md:px-12"
               src="/videos/stopmotion.mp4"
               type="video/mp4"
               defaultMuted
@@ -95,7 +95,7 @@ const Home = () => {
             <h1 className="font-elgoc text-[#392e7a] mt-8 text-5xl lg:mt-16 xl:mt-0">
               Welcome to Toronto
             </h1>
-            <h2 className="flex justify-center font-akkuratlight text-[#606060] leading-loose my-4 w-80 mx-auto md:text-lg md:w-full md:px-10 xl:px-0">
+            <h2 className="flex font-akkuratlight text-[#606060] leading-loose my-4 px-2 md:text-lg xl:px-0">
               Our goal at Ditta Toronto is to bring a sophisticated yet
               effortless ambience to the heart of the city. From our
               thoughtfully designed and beautiful space, to the impeccable
