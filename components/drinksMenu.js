@@ -4,7 +4,7 @@ const DrinksMenu = () => {
   return (
     <>
       <div className="overflow-hidden md:mt-8">
-        <div className="p-2 border-[#392e7a] border-[1px] text-sm font-akkuratlight md:p-10 lg:mx-16 xl:grid grid-cols-2 xl:mx-20 xl:p-20 xl:px-28 xl:space-x-10 2xl:mx-80 2xl:space-x-16">
+        <div className="p-2 border-[#392e7a] border-[1px] text-sm font-akkuratlight md:p-10 lg:mx-16 :grid grid-cols-2 xl:mx-20 xl:p-20 xl:px-28 xl:space-x-10 2xl:mx-80 2xl:space-x-16">
           {/* ===== House Made Sodas ===== */}
 
           <div>

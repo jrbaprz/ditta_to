@@ -3,17 +3,17 @@ import React from "react";
 const CoffeeMenu = () => {
   return (
     <>
-      <div className="overflow-hidden md:mt-8">
-        <div className="p-2 border-[#392e7a] border-[1px] text-sm font-akkuratlight md:p-10 lg:mx-16 xl:grid grid-cols-2 xl:mx-20 xl:p-20 xl:px-28 xl:space-x-10 2xl:mx-80 2xl:space-x-16">
+      <div className="overflow-hidden">
+        <div className="p-2 border-[#392e7a] border-[1px] text-sm font-akkuratlight md:p-12 lg:grid lg:grid-cols-2 lg:p-16 lg:space-x-12">
           <div>
             {/* ===== Coffee ===== */}
-            <div className="py-2 mt-4 mx-3 md:py-8">
+            <div className="py-2 mt-4 mx-3">
               <div className="text-[#392e7a] text-2xl font-akkurat">Coffee</div>
               <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl font-akkurat text-[#392e7a]">
+                <span className="flex-shrink mx-3 text-lg font-akkurat text-[#392e7a]">
                   Espresso
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -25,7 +25,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Macchiato
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -37,7 +37,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Cappuccino
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -49,7 +49,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Cortado
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -59,7 +59,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Flat White
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -69,7 +69,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -81,7 +81,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Long Black
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -91,7 +91,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Americano
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -103,7 +103,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Drip Coffee
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -115,7 +115,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Pour Over
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -126,7 +126,7 @@ const CoffeeMenu = () => {
               <span className="flex-shrink mx-3">(10am - 3pm)</span>
             </div>
             {/* ===== Milk Options ===== */}
-            <div className="py-2 mt-4 mx-3 md:py-8">
+            <div className="py-2 mt-4 mx-3">
               <div className="text-[#392e7a] text-2xl font-akkurat">
                 Milk Options
               </div>
@@ -134,7 +134,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Whole Milk
                 </span>
                 <div className="flex-grow border-t border-gray-300 mx-3" />
@@ -142,7 +142,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   1% Milk
                 </span>
                 <div className="flex-grow border-t border-gray-300 mx-3" />
@@ -150,7 +150,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Lactose-Free Milk
                 </span>
                 <div className="flex-grow border-t border-gray-300 mx-3" />
@@ -158,7 +158,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Oat Milk
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -166,7 +166,7 @@ const CoffeeMenu = () => {
               </div>
             </div>
             {/* ===== Specialty Drinks ===== */}
-            <div className="py-2 mt-4 mx-3 md:py-8">
+            <div className="py-2 mt-4 mx-3">
               <div className="text-[#392e7a] text-2xl font-akkurat">
                 Specialty Drinks
               </div>
@@ -174,7 +174,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Hot Chocolate
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -186,7 +186,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Mocha
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -198,7 +198,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Cherry Truffle Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -214,7 +214,7 @@ const CoffeeMenu = () => {
             </div>
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Gingerbread Spice Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -232,14 +232,14 @@ const CoffeeMenu = () => {
           <div>
             {/* ===== Tea ===== */}
 
-            <div className="py-2 mt-4 mx-3 md:py-8">
+            <div className="py-2 mt-4 mx-3">
               <div className="text-[#392e7a] text-2xl font-akkurat">Tea</div>
               <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
 
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Loose Leaf Tea
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -255,7 +255,7 @@ const CoffeeMenu = () => {
 
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Tea Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -268,7 +268,7 @@ const CoffeeMenu = () => {
 
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Matcha Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -281,7 +281,7 @@ const CoffeeMenu = () => {
 
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Maka Hojicha Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -299,7 +299,7 @@ const CoffeeMenu = () => {
 
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Charcoal Citrus Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -315,7 +315,7 @@ const CoffeeMenu = () => {
 
             <div className="py-5 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Golden Spice Latte
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -334,7 +334,7 @@ const CoffeeMenu = () => {
             {/* ===== House Made Sodas ===== */}
 
             <div>
-              <div className="py-2 mt-4 mx-3 md:py-8">
+              <div className="py-2 mt-4 mx-3">
                 <div className="text-[#392e7a] text-2xl font-akkurat">
                   House Made Sodas
                 </div>
@@ -343,7 +343,7 @@ const CoffeeMenu = () => {
 
               <div className="pt-5 pb-3 text-[#606060]">
                 <div className="relative flex items-center">
-                  <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                     Limone
                   </span>
                   <div className="flex-grow border-t border-gray-300"></div>
@@ -358,7 +358,7 @@ const CoffeeMenu = () => {
 
               <div className="pt-5 pb-3 text-[#606060]">
                 <div className="relative flex items-center">
-                  <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                     Tonica
                   </span>
                   <div className="flex-grow border-t border-gray-300"></div>
@@ -373,7 +373,7 @@ const CoffeeMenu = () => {
 
               <div className="pt-5 pb-3 text-[#606060]">
                 <div className="relative flex items-center">
-                  <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                     Pompelmo
                   </span>
                   <div className="flex-grow border-t border-gray-300"></div>
@@ -390,7 +390,7 @@ const CoffeeMenu = () => {
 
             {/* ===== Fresh Juices ===== */}
 
-            <div className="py-2 mt-4 mx-3 md:py-8">
+            <div className="py-2 mt-4 mx-3">
               <div className="text-[#392e7a] text-2xl font-akkurat">
                 Fresh Juices
               </div>
@@ -399,7 +399,7 @@ const CoffeeMenu = () => {
 
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Orange Juice
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
@@ -412,7 +412,7 @@ const CoffeeMenu = () => {
 
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
                   Grapefruit Juice
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>

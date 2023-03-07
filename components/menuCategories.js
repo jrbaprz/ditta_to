@@ -3,12 +3,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import portafilter from "../public/images/overlays/portafilter.jpg";
 import sandwich from "../public/images/overlays/sandwich.jpg";
-import matcha from "../public/images/overlays/matcha.jpg";
 
 const MenuCategories = () => {
   return (
     <>
-      <section className="grid gap-8 grid-cols-1 md:m-12 md:gap-12 lg:grid-cols-2">
+      <section className="grid gap-8 grid-cols-1 md:gap-12 lg:grid-cols-2">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
