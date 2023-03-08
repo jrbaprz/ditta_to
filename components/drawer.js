@@ -14,7 +14,7 @@ const Drawer = ({ setOpen }) => {
           transition={{
             duration: 0.25,
           }}
-          className="fixed bg-[url(../public/logos/pattern.jpg)] z-40 top-0 overflow-hidden w-screen h-screen p-4"
+          className="fixed bg-[url(../public/logos/pattern.jpg)] z-40 top-0 overflow-hidden w-full h-screen p-4"
         >
           <div className="grid grid-cols-2 pb-4 border-white border-b-[1px]">
             <a href="/" className="ml-[12px]">
@@ -32,12 +32,12 @@ const Drawer = ({ setOpen }) => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="white"
-                class="w-6 h-6"
+                class="w-7 h-7"
               >
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="M3.75 9h16.5m-16.5 6.75h16.5"
+                  d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
             </div>
