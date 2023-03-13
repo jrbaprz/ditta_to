@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="overflow-hidden">
+      <header className="overflow-hidden">
         {/* <div className='fixed top-0 flex bg-[#fbe54a] w-screen font-akkurat text-xs p-1 tracking-wide items-center justify-center'>Come visit us: 612 Richmond St W, Toronto, ON</div> */}
 
         <nav
@@ -184,7 +184,7 @@ const Header = () => {
           </div>
         </nav>
         {open && <Drawer setOpen={setOpen} />}
-      </div>
+      </header>
     </>
   );
 };

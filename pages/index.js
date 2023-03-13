@@ -27,29 +27,29 @@ const Home = () => {
           ref={vidRef}
         />
 
-        <div className="absolute z-20 container mx-auto flex flex-col items-center text-center">
+        <section className="absolute z-20 container mx-auto flex flex-col items-center text-center">
           <h1 className="text-white flex font-elgoc items-center text-center justify-center text-5xl px-4 mb-4 md:text-8xl lg:px-20 xl:px-40 2xl:text-[11rem]">
             Ditta Artigianale Toronto
           </h1>
 
-          <div className="flex justify-center mt-4 gap-4 xl:mt-10 xl:gap-6">
+          <span className="flex justify-center mt-4 gap-4 xl:mt-10 xl:gap-6">
             <div className="border bg-black bg-opacity-40 px-6 py-1 md:px-9 md:py-2 xl:px-10 xl:py-3 hover:bg-white duration-300 group hover:text-white">
               <a href="/menu">
-                <span className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
+                <h3 className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
                   Our Menu
-                </span>
+                </h3>
               </a>
             </div>
 
             <div className="border bg-black bg-opacity-40 px-6 py-1 md:px-9 md:py-2 xl:px-10 xl:py-3 hover:bg-white duration-300 group hover:text-white">
               <a href="/contact">
-                <span className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
+                <h3 className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
                   Connect
-                </span>
+                </h3>
               </a>
             </div>
-          </div>
-        </div>
+          </span>
+        </section>
       </section>
 
       <div className="p-8 md:p-16 xl:p-20">
