@@ -12,7 +12,7 @@ const Home = () => {
   }, []);
 
   return (
-    <>
+    <body>
       <section className="overflow-hidden flex items-center justify-center h-screen">
         <video
           className="relative object-cover z-0 w-full h-full flex justify-center items-center"
@@ -52,7 +52,7 @@ const Home = () => {
         </section>
       </section>
 
-      <div className="p-8 md:p-16 xl:p-20">
+      <main className="p-8 md:p-16 xl:p-20">
         <section className="pb-8 lg:grid lg:grid-cols-2">
           <motion.div
             initial={{ opacity: 0, x: -25 }}
@@ -157,8 +157,8 @@ const Home = () => {
         >
           <CoffeeMenu />
         </motion.div>
-      </div>
-    </>
+      </main>
+    </body>
   );
 };
 
