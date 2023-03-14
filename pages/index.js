@@ -32,23 +32,25 @@ const Home = () => {
             Ditta Artigianale Toronto
           </h1>
 
-          <span className="flex justify-center mt-4 gap-4 xl:mt-10 xl:gap-6">
-            <div className="border bg-black bg-opacity-40 px-6 py-1 md:px-9 md:py-2 xl:px-10 xl:py-3 hover:bg-white duration-300 group hover:text-white">
-              <a href="/menu">
-                <h3 className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
-                  Our Menu
-                </h3>
-              </a>
-            </div>
+          <div className="flex justify-center mt-4 gap-4 xl:mt-10 xl:gap-6">
+            <a
+              href="/menu"
+              className="border bg-black bg-opacity-40 px-6 py-1 md:px-9 md:py-2 xl:px-10 xl:py-3 hover:bg-white duration-300 group hover:text-white"
+            >
+              <h3 className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
+                Our Menu
+              </h3>
+            </a>
 
-            <div className="border bg-black bg-opacity-40 px-6 py-1 md:px-9 md:py-2 xl:px-10 xl:py-3 hover:bg-white duration-300 group hover:text-white">
-              <a href="/contact">
-                <h3 className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
-                  Connect
-                </h3>
-              </a>
-            </div>
-          </span>
+            <a
+              href="/contact"
+              className="border bg-black bg-opacity-40 px-6 py-1 md:px-9 md:py-2 xl:px-10 xl:py-3 hover:bg-white duration-300 group hover:text-white"
+            >
+              <h3 className="relative text-xs text-white uppercase font-akkurat tracking-widest group-hover:text-black">
+                Connect
+              </h3>
+            </a>
+          </div>
         </section>
       </section>
 
