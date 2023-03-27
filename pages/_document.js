@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        {/* Google Tag Manager */}
         <Script
           id="GTM"
           dangerouslySetInnerHTML={{
@@ -23,6 +24,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        {/* Google Tag Manager (noscript) */}
         <noscript
           dangerouslySetInnerHTML={{
             __html: `iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9RHGPN"
