@@ -4,8 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <body>
-        <Main />
         <Head />
+        <Main />
         <NextScript />
       </body>
     </Html>
