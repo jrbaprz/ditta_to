@@ -10,7 +10,7 @@ import cocktail1 from "../public/images/overlays/cocktail1.png";
 import salmon from "../public/images/photos/salmon.jpg";
 import cappuccino from "../public/images/photos/cappuccino.jpg";
 import portafilter from "../public/images/overlays/portafilter.jpg";
-import sandwich from "../public/images/overlays/sandwich.jpg";
+
 import { motion } from "framer-motion";
 import counter from "../public/images/overlays/counter1.jpg";
 
