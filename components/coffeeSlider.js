@@ -1,22 +1,26 @@
-import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/core";
+import "swiper/css/autoplay";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper";
 import Card from "./card.js";
 import Content from "../data/products";
 
-export default function Carousel() {
+export default function CoffeeSlider() {
   return (
     <>
-      <div className="pt-8 overflow-hidden">
+      <div className="pt-8 overflow-hidden max-w-max">
         <Swiper
           navigation={true}
+          autoplay={{
+            disableOnInteraction: false,
+          }}
+          centeredSlides={true}
+          loop={true}
           style={{
             "--swiper-navigation-color": "#606060",
           }}
-          modules={[Navigation]}
-          loop={true}
+          modules={[Navigation, Autoplay]}
           slidesPerView="auto"
           breakpoints={{
             320: {

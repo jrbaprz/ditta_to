@@ -5,9 +5,237 @@ const FoodMenu = () => {
     <>
       <div className="overflow-hidden md:mt-8">
         <div className="p-2 border-[#392e7a] border-[1px] text-sm font-akkuratlight md:p-10 lg:mx-16 xl:grid grid-cols-2 xl:mx-20 xl:p-20 xl:px-28 xl:space-x-10 2xl:mx-80 2xl:space-x-16">
-          {/* ===== Pastries ===== */}
-
           <div>
+            {/* ===== Breakfast / Brunch ===== */}
+
+            <div className="py-2 mt-8 mx-3 md:py-8">
+              <div className="text-[#392e7a] text-2xl font-akkurat">
+                Breakfast / Brunch
+              </div>
+              <div className="flex-grow border-t border-[#392e7a] mt-2" />
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Prosciutto Egg Sandwich
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$9</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Butter Croissant - Scrambled Eggs - Prosciutto - Arugula -
+                  Pecorino
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Eggs Florentine
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$18.50</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Focaccia - Pached Eggs - Spinach - Prosciutto - Tomato -
+                  Hollandaise - Basil
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Omelette
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$15</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Mushrooms - Wilted Spinach
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Eggs Campania
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$18.50</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Tomato Sauce - Poached Eggs - Goat Cheese - Artichokes -
+                  Pickled Mushroom - Gremolata - Grilled Focaccia
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Stuffed Portobello
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$17.50</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Roasted Pepper Sauce - Spinach - Fig Goat Cheese - Lemon Zest
+                </span>
+              </div>
+            </div>
+
+            {/* ===== Toasts ===== */}
+
+            <div>
+              <div className="py-2 mt-8 mx-3 md:py-8">
+                <div className="text-[#392e7a] text-2xl font-akkurat">
+                  Toasts
+                </div>
+                <div className="flex-grow border-t border-[#392e7a] mt-2" />
+              </div>
+
+              <div className="pt-5 pb-3 text-[#606060]">
+                <div className="relative flex items-center">
+                  <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                    Avocado Toast
+                  </span>
+                  <div className="flex-grow border-t border-gray-300"></div>
+                  <span className="flex-shrink mx-3 font-akkurat">$12</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="flex-shrink mx-3">
+                    Avocado Two Ways - Pomegranate - Heirloom Tomatoes - Radish
+                    - Poached Eggs
+                  </span>
+                </div>
+              </div>
+
+              <div className="pt-5 pb-3 text-[#606060]">
+                <div className="relative flex items-center">
+                  <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                    Salmon Toast
+                  </span>
+                  <div className="flex-grow border-t border-gray-300"></div>
+                  <span className="flex-shrink mx-3 font-akkurat">$16</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="flex-shrink mx-3">
+                    Lemon Caper Cream Cheese - Salmon Gravlax - Gremolata -
+                    Pickled Onion - Cucumber - Bagel Seasoning & Herb Oil
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Prosciutto Toast
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$18</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Ricotta Cheese - Figs - Prosciutto - Wine Reduction
+                </span>
+              </div>
+            </div>
+
+            {/* ===== Sandwiches ===== */}
+
+            <div className="py-2 mt-8 mx-3 md:py-8">
+              <div className="text-[#392e7a] text-2xl font-akkurat">
+                Sandwiches
+              </div>
+              <div className="flex-grow border-t border-[#392e7a] mt-2" />
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Muffaletta
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$15</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Focaccia - Bomba - Giardiniera - Turkey - Coppa - Provolone
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Buratta
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$20</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Tomatoes - Marinated Tomatoes - Zucchini - Basil - Sourdough
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Caprese
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$15.00</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Ciabatta Bread - Tomatoes - Burrata - Basil - Arugula - Pesto
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Steak Sandwich
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$16</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Focaccia - Striploin - Aioli - Sautéed Mushrooms
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Vegetarian Sandwich
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$16</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Roasted Red Peppers - Grilled Zucchini - Arugula - Mushrooms
+                </span>
+              </div>
+            </div>
+
+            {/* ===== Pastries ===== */}
             <div className="py-2 mt-4 mx-3 md:py-8">
               <div className="text-[#392e7a] text-2xl font-akkurat">
                 Pastries
@@ -25,6 +253,16 @@ const FoodMenu = () => {
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
                 <span className="flex-shrink mx-3 font-akkurat">$3.70</span>
+              </div>
+            </div>
+
+            <div className="py-5 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Cheese Croissant
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$4.30</span>
               </div>
             </div>
 
@@ -101,37 +339,16 @@ const FoodMenu = () => {
               </div>
             </div>
 
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Zucchini Loaf
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$3.55</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">Gluten Free</span>
-              </div>
-            </div>
+            {/* ===== COLUMN 1 END ===== */}
+          </div>
 
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Chocolate Oatmeal Brownie
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$3.55</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">Vegan</span>
-              </div>
-            </div>
-
-            {/* ===== Breakfast / Brunch ===== */}
+          {/* ===== COLUMN 2 ===== */}
+          <div>
+            {/* ===== Antipasto ===== */}
 
             <div className="py-2 mt-8 mx-3 md:py-8">
               <div className="text-[#392e7a] text-2xl font-akkurat">
-                Breakfast / Brunch
+                Antipasto
               </div>
               <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
@@ -139,14 +356,14 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Eggs Florentine
+                  Marinated Olives
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$16.50</span>
+                <span className="flex-shrink mx-3 font-akkurat">$8</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  English Muffin - Spinach - Poached Eggs - Hollandaise
+                  Warm Mixed Olives in House Marinade
                 </span>
               </div>
             </div>
@@ -154,15 +371,14 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Egg Sandwich
+                  Arancini
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$9.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$12.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Butter Croissant - Scrambled Eggs - Arugula - Swiss Cheese -
-                  Prosciutto - Garlic Aioli
+                  Ratatouille - Zucchini Cream - Fennel Salad - Shaved Parmesan
                 </span>
               </div>
             </div>
@@ -170,15 +386,14 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Ricotta Pancakes
+                  Melanzane
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$15.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$12.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Ricotta - Whole Milk - Vanilla - Lemon Zest - Berries - Maple
-                  Syrup - Fresh Whipped Cream
+                  Japanese Eggplant - Tomato Sugo - Mozzarella
                 </span>
               </div>
             </div>
@@ -186,14 +401,15 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Omelette
+                  Carpaccio
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$24</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Eggs - Mushrooms - Butter
+                  Ontario Beef - Pistachios - Shaved Parmesan - Pickled
+                  Mushrooms - Chervil - Truffle Vinaigrette - Wine Reduction
                 </span>
               </div>
             </div>
@@ -201,15 +417,14 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  TBLT
+                  Stuffed Portobello
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$17.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Heirloom Tomato - Dulse Seaweed - Vegan Mayo - Toasted Panko -
-                  Herb Oil
+                  Roasted Pepper Sauce - Spinach - Fig Goat Cheese - Lemon Zest
                 </span>
               </div>
             </div>
@@ -217,39 +432,14 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Parfait
+                  Calamari
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$5.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$19.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Yogurt - Berries - Mint - Sweetened Oats - Maple Syrup
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {/* ===== Toasts ===== */}
-
-          <div>
-            <div className="py-2 mt-8 mx-3 md:py-8">
-              <div className="text-[#392e7a] text-2xl font-akkurat">Toasts</div>
-              <div className="flex-grow border-t border-[#392e7a] mt-2" />
-            </div>
-
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Avocado Toast
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$12.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">
-                  Sourdough - Guacamole - Poached Egg - Cherry Tomatoes -
-                  Arugula
+                  White Bean Ragu - Radicchio - Confit Cherry Tomatoes - Arugula
                 </span>
               </div>
             </div>
@@ -257,51 +447,19 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Salmon Avocado Toast
+                  Crudo
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$20.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$22.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Sourdough - Smoked Salmon - Guacamole - Pomegranate -
-                  Microgreens - Dill - Cornichon
+                  Tuna - Yuzu - Raddish - Dehydrated Kalamata Olives
                 </span>
               </div>
             </div>
 
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Prosciutto Toast
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$21.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">
-                  Sourdough - Prosciutto - Cream Cheese - Sage - Parsley -
-                  Microgreens - Fig
-                </span>
-              </div>
-            </div>
-
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Ricotta Toast
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">
-                  Sourdough - Ricotta - Arugula - Mushrooms
-                </span>
-              </div>
-            </div>
-
-            {/* ===== Salads ===== */}
+            {/* ===== SALADS ===== */}
 
             <div className="py-2 mt-8 mx-3 md:py-8">
               <div className="text-[#392e7a] text-2xl font-akkurat">Salads</div>
@@ -311,15 +469,31 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
+                  Burrata
+                </span>
+                <div className="flex-grow border-t border-gray-300"></div>
+                <span className="flex-shrink mx-3 font-akkurat">$20</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="flex-shrink mx-3">
+                  Tomatoes - Blood Orange - Enduja - Basil - Pine Nuts - Grilled
+                  Lemon Wedge - Sourdough Toast
+                </span>
+              </div>
+            </div>
+
+            <div className="pt-5 pb-3 text-[#606060]">
+              <div className="relative flex items-center">
+                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
                   Kale Salad
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$12.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$18</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Kale - Tomatoes - Dijon Mustard - Extra Virgin Olive Oil -
-                  Garlic - Zucchini
+                  Kale - Bell Peppers - Cucumber - Almonds - Squash - Citrus
+                  Vinaigrette
                 </span>
               </div>
             </div>
@@ -327,176 +501,91 @@ const FoodMenu = () => {
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Panzanella
+                  Mista Salad
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$12.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$15</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Bread - Cucumber - Zucchini - Tomatoes - Arugula - Lemon
-                  Vinaigrettte
+                  Chickpea Purée - Grilled Zucchini - Raddish - Mixed Greens -
+                  Fried Shallots - House Dressing
                 </span>
               </div>
             </div>
 
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  House Salad
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$12.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">
-                  Arugula - Romaine Lettuce - Tomatoes - Cucumber - Feta - Lemon
-                  Vinaigrettte
-                </span>
-              </div>
-            </div>
-
-            {/* ===== Sandwiches ===== */}
+            {/* ===== PASTA ===== */}
 
             <div className="py-2 mt-8 mx-3 md:py-8">
-              <div className="text-[#392e7a] text-2xl font-akkurat">
-                Sandwiches
-              </div>
+              <div className="text-[#392e7a] text-2xl font-akkurat">Pasta</div>
               <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
 
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Muffaletta
+                  Gnocchi
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$16.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$19.50</span>
               </div>
               <div className="flex flex-col">
                 <span className="flex-shrink mx-3">
-                  Sourdough - Roasted Turkey - Extra Virgin Olive Oil - Bomba -
-                  Coppa - Mozzarella - Giardiniera - Olives
+                  Confit Garlic Cream - Corn - Red Peppers - Mushrroms - Shaved
+                  Parm
                 </span>
               </div>
             </div>
 
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Vegetable
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$14.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">
-                  Sourdough - Lettuce - Tomatoes - Ricotta - Red Peppers -
-                  Cucumber
-                </span>
-              </div>
-            </div>
+            {/* ===== MEAT ===== */}
 
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Caprese
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$15.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">
-                  Ciabatta Bread - Tomatoes - Burrata - Basil - Arugula - Pesto
-                </span>
-              </div>
-            </div>
-
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Oven Roasted Turkey
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$18.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">
-                  Grilled Artisinal Bread - Turkey - Pesto - Melted Cheese
-                </span>
-              </div>
-            </div>
-
-            {/* ===== Add-Ons ===== */}
-
-            <div className="py-2 mt-8 mx-3 md:py-8 lg:py-4">
-              <div className="text-[#392e7a] text-2xl font-akkurat">
-                Add-Ons
-              </div>
+            <div className="py-2 mt-8 mx-3 md:py-8">
+              <div className="text-[#392e7a] text-2xl font-akkurat">Meat</div>
               <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
 
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Hanger Steak
+                  Steak
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$10.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$28.95</span>
               </div>
               <div className="flex flex-col">
-                <span className="flex-shrink mx-3">4oz</span>
+                <span className="flex-shrink mx-3">
+                  Ontario Dry Aged 11 oz Striploin
+                </span>
+
+                <span className="flex-shrink mx-3 mt-1 italic">
+                  Add: $8 Mushrooms / $12 Grilled vegetables
+                </span>
               </div>
+            </div>
+
+            {/* ===== DOLCE ===== */}
+
+            <div className="py-2 mt-8 mx-3 md:py-8">
+              <div className="text-[#392e7a] text-2xl font-akkurat">Dolce</div>
+              <div className="flex-grow border-t border-[#392e7a] mt-2" />
             </div>
 
             <div className="pt-5 pb-3 text-[#606060]">
               <div className="relative flex items-center">
                 <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Chicken Breast
+                  Lemon Olive Oil Cake
                 </span>
                 <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$8.00</span>
+                <span className="flex-shrink mx-3 font-akkurat">$12</span>
               </div>
               <div className="flex flex-col">
-                <span className="flex-shrink mx-3">6oz</span>
+                <span className="flex-shrink mx-3">
+                  Berry Compote - Icing Sugar - Candied Orange
+                </span>
               </div>
             </div>
 
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Salmon
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$8.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">6oz</span>
-              </div>
-            </div>
-
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Turkey
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$8.00</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="flex-shrink mx-3">6oz</span>
-              </div>
-            </div>
-
-            <div className="pt-5 pb-3 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-xl text-[#392e7a] font-akkurat">
-                  Egg
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$3.00</span>
-              </div>
-            </div>
+            {/* ===== END OF COLUMN 2 ===== */}
           </div>
         </div>
       </div>

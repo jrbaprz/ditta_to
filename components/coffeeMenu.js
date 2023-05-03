@@ -4,7 +4,7 @@ const CoffeeMenu = () => {
   return (
     <>
       <div className="overflow-hidden">
-        <div className="p-2 border-[#392e7a] border-[1px] text-sm font-akkuratlight md:p-12 lg:grid lg:grid-cols-2 lg:p-16 lg:space-x-12">
+        <div className="p-2 border-[#392e7a] border-[1px] text-sm font-akkuratlight md:p-10 lg:mx-16 xl:grid grid-cols-2 xl:mx-20 xl:p-20 xl:px-28 xl:space-x-10 2xl:mx-80 2xl:space-x-16">
           <div>
             {/* ===== Coffee ===== */}
             <div className="py-2 mt-4 mx-3">
@@ -125,46 +125,7 @@ const CoffeeMenu = () => {
               </div>
               <span className="flex-shrink mx-3">(10am - 3pm)</span>
             </div>
-            {/* ===== Milk Options ===== */}
-            <div className="py-2 mt-4 mx-3">
-              <div className="text-[#392e7a] text-2xl font-akkurat">
-                Milk Options
-              </div>
-              <div className="flex-grow border-t border-[#392e7a] mt-2" />
-            </div>
-            <div className="py-5 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
-                  Whole Milk
-                </span>
-                <div className="flex-grow border-t border-gray-300 mx-3" />
-              </div>
-            </div>
-            <div className="py-5 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
-                  1% Milk
-                </span>
-                <div className="flex-grow border-t border-gray-300 mx-3" />
-              </div>
-            </div>
-            <div className="py-5 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
-                  Lactose-Free Milk
-                </span>
-                <div className="flex-grow border-t border-gray-300 mx-3" />
-              </div>
-            </div>
-            <div className="py-5 text-[#606060]">
-              <div className="relative flex items-center">
-                <span className="flex-shrink mx-3 text-lg text-[#392e7a] font-akkurat">
-                  Oat Milk
-                </span>
-                <div className="flex-grow border-t border-gray-300"></div>
-                <span className="flex-shrink mx-3 font-akkurat">$0.60</span>
-              </div>
-            </div>
+
             {/* ===== Specialty Drinks ===== */}
             <div className="py-2 mt-4 mx-3">
               <div className="text-[#392e7a] text-2xl font-akkurat">

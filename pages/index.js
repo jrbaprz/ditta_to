@@ -1,6 +1,6 @@
 import { React, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
-import Carousel from "../components/carousel";
+import CoffeeSlider from "../components/coffeeSlider";
 import MenuCategories from "../components/menuCategories";
 import CoffeeMenu from "../components/coffeeMenu";
 
@@ -120,7 +120,7 @@ const Home = () => {
                 micro-lots, with offerings being rotated each season.
               </h2>
             </section>
-            <Carousel />
+            <CoffeeSlider />
           </motion.div>
 
           <div className="py-8 lg:py-16">
